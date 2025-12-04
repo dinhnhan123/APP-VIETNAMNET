@@ -1,0 +1,46 @@
+.top-footer li a{
+    text-decoration: none;
+    padding: 10px 0px;
+    display: block;
+    color: #444;
+}
+.box-bottom-footer:first-child{
+    padding-left: 15px;
+}
+.box-bottom-footer:nth-child(2) {
+  padding: 0 20px 0px 24px;
+}
+.box-bottom-footer{
+    padding: 0px 50px;
+}
+.wp-bottom-footer p{
+    color: #444;
+}
+.wp-icon-bottom-footer i{
+    font-size: 20px;
+    color: #353535;
+}
+.box-bottom-footer .fw-bold{
+    margin-bottom: 15px !important;
+
+}
+.footer-links-extra p{
+    color: #2D67AD;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+
+
+/* responsive  */
+@media (max-width: 768px) {
+    .box-bottom-footer:first-child{
+    padding-left: 15px;
+}
+.box-bottom-footer:nth-child(2) {
+  padding: 0 15px 0px 15px;
+}
+.box-bottom-footer{
+    padding: 0px 15px;
+}
+}
