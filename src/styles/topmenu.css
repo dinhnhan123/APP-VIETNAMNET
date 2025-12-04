@@ -1,0 +1,41 @@
+
+.menu-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+.menu-scroll::-webkit-scrollbar {
+    display: none;
+}
+.scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border: none;
+    padding: 6px 10px;
+    font-size: 18px;
+    z-index: 10;
+    opacity: 0.9;
+}
+
+.left-btn {
+    left: 0;
+}
+
+.right-btn {
+    right: 0;
+}
+.top-menu{
+    gap:14px !important; 
+    font-weight: 600;
+}
+@media (max-width: 576px) {
+    .menu-scroll {
+        padding-left: 30px !important; 
+        padding-right: 30px !important;
+    }
+}
