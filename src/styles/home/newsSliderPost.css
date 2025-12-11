@@ -1,0 +1,21 @@
+.news-slider .swiper-pagination {
+  position: relative !important;
+  margin-top: 10px !important; 
+}
+
+.news-slider .swiper-pagination-bullet {
+  opacity: 0.4 !important;
+}
+
+.news-slider .swiper-pagination-bullet-active {
+  opacity: 1 !important;
+}
+.titleNewSliderPost{
+    margin-bottom: 10px !important;
+}
+.swiper-wrapper{
+    padding: 10px 0px 40px 0px !important;
+}
+.textNewSliderPost{
+    font-size: 16px;
+}
