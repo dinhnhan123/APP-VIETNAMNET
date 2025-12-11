@@ -1,0 +1,30 @@
+.video-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.video-caption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  font-size: 14px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.7));
+  border-radius: 6px;
+}
+
+.small-video video {
+  height: 120px;
+  object-fit: cover;
+}
+
+.play-icon {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  padding: 3px 6px;
+  border-radius: 3px;
+  font-size: 12px;
+}

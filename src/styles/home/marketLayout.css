@@ -1,0 +1,37 @@
+.nav-tabs .nav-link {
+  border: none;
+  background: transparent;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 2px solid #d00;
+  color: #d00 !important;
+  font-weight: bold;
+  background: transparent;
+}
+.custom-tabs {
+  display: flex;
+  border-bottom: 1px solid #dee2e6; 
+}
+
+.custom-tabs .nav-item {
+  flex: 1;
+}
+
+.custom-tabs .nav-link {
+  text-align: center;
+  width: 100%;
+  padding: 8px 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.custom-tabs .nav-link.active {
+  color: #d10000 !important;
+  border-color: #d10000 #d10000 transparent !important;
+}
+li.nav-item{
+    font-size: 14px !important;
+}

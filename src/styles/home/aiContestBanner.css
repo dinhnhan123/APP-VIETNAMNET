@@ -1,0 +1,29 @@
+.ai-banner {
+  background: linear-gradient(90deg, #2424ff, #a020f0, #ff3d7f);
+  color: white;
+  border-radius: 18px;
+}
+
+.robot-img {
+  max-height: 150px;
+  object-fit: contain;
+}
+
+.ai-title {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.thumb-img {
+  width: 110px;     
+  height: 70px;      
+  object-fit: cover;     
+  border-radius: 6px;
+  flex-shrink: 0;        
+}
+
+.robot-img {
+  max-width: 160px;
+  height: auto;
+}
