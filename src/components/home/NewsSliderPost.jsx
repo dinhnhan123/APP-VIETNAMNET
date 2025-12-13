@@ -30,8 +30,6 @@ const NewsSliderPost = () => {
 
     return (
         <div className="bg-white rounded shadow-sm p-3">
-
-            {/* Header */}
             <h6 className="text-primary fw-bold d-flex align-items-center mb-2 titleNewSliderPost">
                 <img
                     src="https://cdn-icons-png.flaticon.com/512/565/565547.png"
@@ -56,7 +54,6 @@ const NewsSliderPost = () => {
                                 </a>
                             </div>
 
-                            {/* Image */}
                             <div
                                 style={{
                                     width: "100%",
