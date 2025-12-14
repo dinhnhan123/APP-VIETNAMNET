@@ -16,7 +16,7 @@ const Navbar = () => {
      <nav className="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
       <div className="container py-2">
 
-        <a className="navbar-brand d-flex align-items-center gap-2" href="#">
+        <a className="navbar-brand d-flex align-items-center gap-2" href="/">
           <img src={logoVN} alt="logo" height="60" />
           <span className="text-day-now text-gray">Thứ ba, 02/12/2025</span>
         </a>

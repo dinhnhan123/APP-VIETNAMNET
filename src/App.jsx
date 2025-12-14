@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 //page
 import CatPage from "./pages/CatPage";
 import HomePage from "./pages/HomePage";
+import PoliticsPage from "./pages/PoliticsPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <TopMenu/>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/chinh-tri" element={<PoliticsPage />} />
         <Route path="/cat" element={<CatPage />} />
       </Routes>
        <Footer/>

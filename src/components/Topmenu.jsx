@@ -2,6 +2,17 @@ import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import "../styles/topmenu.css";
 
+// ====== HÀM BỎ DẤU + TẠO SLUG ======
+const slugify = (str) =>
+  str
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/đ/g, "d")
+    .replace(/[^a-z0-9\s-]/g, "")
+    .trim()
+    .replace(/\s+/g, "-");
+
 const TopMenu = () => {
   const menus = [
     {
@@ -83,7 +94,7 @@ const TopMenu = () => {
         {menus.map((menu, index) => (
           <div className="menu-item" key={index}>
             <Link
-              to={`/${menu.title.toLowerCase().replaceAll(" ", "-")}`}
+              to={`/${slugify(menu.title)}`}
               className="menu-link"
             >
               {menu.title}
@@ -93,7 +104,7 @@ const TopMenu = () => {
               {menu.children.map((sub, idx) => (
                 <Link
                   key={idx}
-                  to={`/${sub.toLowerCase().replaceAll(" ", "-")}`}
+                  to={`/${slugify(sub)}`}
                   className="submenu-link"
                 >
                   {sub}
