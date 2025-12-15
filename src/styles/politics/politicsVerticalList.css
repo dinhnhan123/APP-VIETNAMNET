@@ -1,0 +1,62 @@
+.politics-vertical-item img {
+  width: 220px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.item-category {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  color: #0d47a1;
+  margin-bottom: 4px;
+}
+
+.item-title {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #000;
+  text-decoration: none;
+}
+
+.item-title:hover {
+  color: #0d47a1;
+}
+
+.item-desc {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* pagination  */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.pagination button {
+  min-width: 32px;
+  height: 32px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.pagination button.active {
+  background: #0d47a1;
+  color: #fff;
+  border-color: #0d47a1;
+}
+
+.pagination button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+

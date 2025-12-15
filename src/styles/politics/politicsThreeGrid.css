@@ -1,0 +1,46 @@
+/* ===== GRID 3 BÀI ===== */
+.politics-three-grid img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.grid-item {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+.grid-item h6 {
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.grid-item:hover h6 {
+  color: #0d47a1;
+}
+
+/* ===== SIDEBAR ===== */
+.hot-title {
+  font-weight: bold;
+  color: #0d47a1;
+  border-bottom: 2px solid #0d47a1;
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+}
+
+.hot-item {
+  display: block;
+  padding: 14px 0;
+  font-size: 14px;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  text-decoration: none;
+}
+
+.hot-item:hover {
+  color: #0d47a1;
+}
