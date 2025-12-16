@@ -3,6 +3,11 @@ import FeaturedArticle from "../politics/FeaturedArticle.jsx";
 import SubArticleItem from "../politics/SubArticleItem.jsx";
 import PoliticsThreeGrid from "../politics/PoliticsThreeGrid.jsx";
 import PoliticsVerticalList from "../politics/PoliticsVerticalList.jsx";
+import NewsSection from "../politics/NewsSection.jsx";
+import {
+    listDataNewsPolitics,
+    listDataNewsPolitics2
+} from "../../fakeApi.jsx";
 //style 
 import "../../styles/politics/politicsThreeGrid.css"
 const PoliticsMain = () => {
@@ -48,12 +53,17 @@ const PoliticsMain = () => {
             </div>
 
             <div className="mt-4">
-                <PoliticsThreeGrid/>
+                <PoliticsThreeGrid />
             </div>
-              <div className="mt-4">
-                <PoliticsVerticalList/>
+            <div className="mt-4">
+                <PoliticsVerticalList />
+            </div>
+             <div className="news-row mt-4">
+                <NewsSection sections={listDataNewsPolitics} />
+                <NewsSection sections={listDataNewsPolitics2} />
             </div>
         </div>
+
     );
 };
 

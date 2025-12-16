@@ -112,7 +112,7 @@ const PoliticsVerticalList = () => {
         },
     ];
 
-    const ITEMS_PER_PAGE = 5;
+    const ITEMS_PER_PAGE = 10;
     const [currentPage, setCurrentPage] = useState(1);
 
     const totalPages = Math.ceil(articles.length / ITEMS_PER_PAGE);

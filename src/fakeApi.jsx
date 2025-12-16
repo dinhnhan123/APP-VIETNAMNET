@@ -316,3 +316,67 @@ export const photo = [
     link: "/photo/2"
   }
 ];
+
+
+export const listDataNewsPolitics = [
+  {
+    id: "su-kien",
+    title: "SỰ KIỆN",
+    main: {
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/15/thu-tuong-pham-minh-chinh-du-hoi-nghi-cong-an-toan-quoc-lan-thu-81-2699.jpg?width=260&s=ST4R1GUCzDyfz66240VTAA",
+      title: "Thủ tướng Phạm Minh Chính dự Hội nghị Công an toàn quốc lần thứ 81",
+    },
+    items: [
+      "Tổng Bí thư Tô Lâm tiếp xúc cử tri sau kỳ họp thứ 10, Quốc hội khóa 15",
+      "Thủ tướng kiểm tra sân bay Long Thành trước chuyến bay kỹ thuật",
+      "Dấu ấn 10 năm của một hiệp hội và sự ra đời Trung tâm Phát triển nhân lực số Việt Nam",
+    ],
+  },
+  {
+    id: "xay-dung-dang",
+    title: "XÂY DỰNG ĐẢNG",
+    main: {
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/12/ban-bi-thu-tinh-gian-10-hoi-nghi-hang-nam-lanh-dao-ket-luan-khong-qua-50-phut-3012.jpg?width=260&s=lNG6zJzf-3p1ioyJQ6vLfg",
+      title:
+        "Ban Bí thư: Tinh giản 10% hội nghị hằng năm, lãnh đạo kết luận không quá 50 phút",
+      comments: 28,
+    },
+    items: [
+      "Những con số trả lời rõ câu hỏi 'một bộ phận không nhỏ cán bộ, đảng viên suy thoái'",
+      "Tổng Bí thư: Sớm cải cách mạnh mẽ tiền lương để cán bộ 'không cần' tham nhũng",
+      "Thường trực Ban Bí thư Trần Cẩm Tú: Xử lý dứt điểm một số công trình, dự án lãng phí lớn",
+    ],
+  },
+  
+];
+export const listDataNewsPolitics2 = [
+  {
+    id: "su-kien",
+    title: "ĐỐI NGOẠI",
+    main: {
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/16/nguoi-dan-chau-phi-nhay-mua-vay-co-viet-nam-cung-chien-si-mu-noi-xanh-1277.jpg?width=260&s=5sbCEuZVs-C5rHL8WT0kRg",
+      title: "Thủ tướng Phạm Minh Chính dự Hội nghị Công an toàn quốc lần thứ 81",
+    },
+    items: [
+      "Tổng Bí thư Tô Lâm tiếp xúc cử tri sau kỳ họp thứ 10, Quốc hội khóa 15",
+      "Thủ tướng kiểm tra sân bay Long Thành trước chuyến bay kỹ thuật",
+      "Dấu ấn 10 năm của một hiệp hội và sự ra đời Trung tâm Phát triển nhân lực số Việt Nam",
+    ],
+  },
+  {
+    id: "xay-dung-dang",
+    title: "BÀN LUẬN",
+    main: {
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/14/giam-hoi-hop-lanh-dao-ket-luan-khong-qua-50-phut-het-tinh-trang-moi-viec-deu-cho-hop-4530.jpg?width=260&s=qUaKzFnoo3aEqOP1HlJ44A",
+      title:
+        "Ban Bí thư: Tinh giản 10% hội nghị hằng năm, lãnh đạo kết luận không quá 50 phút",
+      comments: 28,
+    },
+    items: [
+      "Những con số trả lời rõ câu hỏi 'một bộ phận không nhỏ cán bộ, đảng viên suy thoái'",
+      "Tổng Bí thư: Sớm cải cách mạnh mẽ tiền lương để cán bộ 'không cần' tham nhũng",
+      "Thường trực Ban Bí thư Trần Cẩm Tú: Xử lý dứt điểm một số công trình, dự án lãng phí lớn",
+    ],
+  },
+  
+];
