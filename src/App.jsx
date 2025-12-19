@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import CatPage from "./pages/CatPage";
 import HomePage from "./pages/HomePage";
 import PoliticsPage from "./pages/PoliticsPage";
+import NewsPage from "./pages/NewsPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HealthPage from "./pages/HealthPage";
 import TechPage from "./pages/TechPage";
@@ -22,6 +23,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/chinh-tri" element={<PoliticsPage />} />
+        <Route path="/thoi-su" element={<NewsPage />} />
         <Route path="/cat" element={<CatPage />} />
         <Route path="/suc-khoe" element={<HealthPage />} />
         <Route path="/cong-nghe" element={<TechPage />} />
