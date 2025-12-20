@@ -1,0 +1,93 @@
+/* ================== WRAPPER (MAIN + SIDEBAR) ================== */
+.health-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ================== MAIN CONTENT ================== */
+.health-main {
+  flex: 1 1 70%;
+}
+
+/* ===== MAIN NEWS: 1 bài lớn + 2 bài nhỏ ===== */
+.main-news {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+/* -------- LEFT: BÀI LỚN -------- */
+.main-left {
+  flex: 1 1 65%;
+}
+
+.main-left img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.main-left h2 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-top: 12px;
+}
+
+/* -------- RIGHT: BÀI NHỎ -------- */
+.main-right {
+  flex: 1 1 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* -------- SUB ARTICLE ITEM -------- */
+.sub-item {
+  display: flex;
+  gap: 10px;
+}
+
+.sub-item img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.sub-item p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* ================== SIDEBAR ================== */
+.health-sidebar {
+  flex: 0 0 280px;
+}
+
+/* -------- SIDEBAR BOX -------- */
+.sidebar-box {
+  background: #f3e2c7;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #b30000;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.sidebar-box.highlight {
+  background: #f8d7da;
+}
+
+/* ================== RESPONSIVE ================== */
+@media (max-width: 992px) {
+  .main-left,
+  .main-right {
+    flex: 1 1 100%;
+  }
+
+  .health-sidebar {
+    flex: 1 1 100%;
+  }
+}

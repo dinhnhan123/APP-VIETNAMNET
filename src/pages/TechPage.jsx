@@ -1,9 +1,16 @@
-import React from "react";
+import TechMain from "../components/tech/TechMain.jsx";
+import TechSidebar from "../components/tech/TechSidebar.jsx";
+import "../styles/tech/index.css";
 
-const CongNghe = () => {
-    return (
-        <h1>Heloo Cat ne</h1>
-    );
+const TechPage = () => {
+  return (
+    <div className="container mt-3">
+      <div className="d-flex flex-wrap tech-wrapper">
+        <TechMain />
+        <TechSidebar />
+      </div>
+    </div>
+  );
 };
 
-export default CongNghe;
+export default TechPage;
