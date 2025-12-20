@@ -1,0 +1,88 @@
+/* ================== WRAPPER ================== */
+.tech-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ================== MAIN ================== */
+.tech-main {
+  flex: 1 1 70%;
+}
+
+/* ===== MAIN NEWS ===== */
+.main-news {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+/* -------- LEFT -------- */
+.main-left {
+  flex: 1 1 65%;
+}
+
+.main-left img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.main-left h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+/* -------- RIGHT -------- */
+.main-right {
+  flex: 1 1 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* -------- SUB ITEM -------- */
+.sub-item {
+  display: flex;
+  gap: 10px;
+}
+
+.sub-item img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.sub-item p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* ================== SIDEBAR ================== */
+.tech-sidebar {
+  flex: 0 0 280px;
+}
+
+/* -------- SIDEBAR BOX -------- */
+.sidebar-box {
+  background: #e3f2fd;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #0d47a1;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.sidebar-box.highlight {
+  background: #bbdefb;
+}
+
+/* ================== RESPONSIVE ================== */
+@media (max-width: 992px) {
+  .main-left,
+  .main-right,
+  .tech-sidebar {
+    flex: 1 1 100%;
+  }
+}

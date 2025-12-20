@@ -1,9 +1,16 @@
-import React from "react";
+import HealthMain from "../components/health/HealthMain.jsx";
+import HealthSidebar from "../components/health/HealthSidebar.jsx";
+import "../styles/health/index.css";
 
-const SucKhoe = () => {
-    return (
-        <h1>Heloo Cat ne</h1>
-    );
+const HealthPage = () => {
+  return (
+    <div className="container mt-3">
+      <div className="d-flex flex-wrap health-wrapper">
+        <HealthMain />
+        <HealthSidebar />
+      </div>
+    </div>
+  );
 };
 
-export default SucKhoe;
+export default HealthPage;

@@ -1,9 +1,16 @@
-import React from "react";
+import CarMain from "../components/car/CarMain.jsx";
+import CarSidebar from "../components/car/CarSidebar.jsx";
+import "../styles/car/index.css";
 
-const Xe = () => {
-    return (
-        <h1>Heloo Cat ne</h1>
-    );
+const CarPage = () => {
+  return (
+    <div className="container mt-3">
+      <div className="d-flex flex-wrap car-wrapper">
+        <CarMain />
+        <CarSidebar />
+      </div>
+    </div>
+  );
 };
 
-export default Xe;
+export default CarPage;
