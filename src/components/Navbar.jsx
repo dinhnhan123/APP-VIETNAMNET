@@ -58,9 +58,9 @@ const Navbar = () => {
             <span className="d-none d-lg-inline text-secondary">|</span>
 
             <li className="nav-item d-flex align-items-center gap-2">
-              <a href="#" className="nav-link login">
-                Đăng nhập <i className="fa-regular fa-user"></i>
-              </a>
+              <Link to="/dang-nhap" className="nav-link login">
+              Đăng nhập <i className="fa-regular fa-user"></i>
+              </Link>
             </li>
 
             <li className="nav-item d-flex align-items-center gap-2 ms-lg-2 position-relative">
