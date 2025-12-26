@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import FeaturedArticle from "../politics/FeaturedArticle.jsx";
-import SubArticleItem from "../politics/SubArticleItem.jsx";
-import PoliticsThreeGrid from "../politics/PoliticsThreeGrid.jsx";
+import FeaturedArticle from "../news/FeaturedArticle.jsx";
+import SubArticleItem from "../news/SubArticleItem.jsx";
+import PoliticsThreeGrid from "../news/NewThreeGrid.jsx";
 import PoliticsVerticalList from "../politics/PoliticsVerticalList.jsx";
 import NewsSection from "../politics/NewsSection.jsx";
 import {

@@ -1,4 +1,4 @@
-import PoliticsMain from "../components/politics/PoliticsMain.jsx";
+import PoliticsMain from "../components/news/NewMain.jsx";
 import PoliticsSidebar from "../components/politics/PoliticsSidebar.jsx";
 import HighlightSection from "../components/politics/HighlightSection.jsx";
 import "../styles/politics/index.css"
