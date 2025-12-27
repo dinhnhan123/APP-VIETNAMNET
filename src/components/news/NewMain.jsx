@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 import FeaturedArticle from "../news/FeaturedArticle.jsx";
 import SubArticleItem from "../news/SubArticleItem.jsx";
-import PoliticsThreeGrid from "../news/NewThreeGrid.jsx";
-import PoliticsVerticalList from "../politics/PoliticsVerticalList.jsx";
-import NewsSection from "../politics/NewsSection.jsx";
+import NewThreeGrid from "../news/NewThreeGrid.jsx";
+import NewVerticalList from "../news/NewVerticalList.jsx";
+import NewsSection from "../news/NewsSection.jsx";
 import {
-    listDataNewsPolitics,
-    listDataNewsPolitics2
+    listDataNews,
+    listDataNews2
 } from "../../fakeApi.jsx";
 //style 
-import "../../styles/politics/politicsThreeGrid.css"
+import "../../styles/news/newThreeGrid.css";
 const PoliticsMain = () => {
     return (
         <div className="politics-main">
@@ -29,38 +29,38 @@ const PoliticsMain = () => {
                 <div className="main-right">
 
                     <SubArticleItem
-                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/14/bai-hoc-tu-chau-au-co-the-giup-viet-nam-giam-gan-80-muc-o-nhiem-khong-khi-430.jpg?width=360&s=Am3rAKrcxBNz7B1sh9Leww"
-                        title="Hồi hương hài cốt quân nhân Mỹ mất tích trong chiến tranh tại Việt Nam"
+                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/25/2025-ha-noi-troi-ret-mien-bac-thap-nhat-duoi-8-do-3169.jpg?width=360&s=lOLsTPIwxYNJtfgg7SZAIQ"
+                        title="Dự báo thời tiết 27/12/2025: Hà Nội rét khô, chênh lệch ngày đêm gần 10 độ"
                         link="/chinh-tri/hoi-huong-hai-cot-quan-nhan-my"
                     />
 
                     <SubArticleItem
-                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/13/hoi-huong-hai-cot-quan-nhan-my-mat-tich-trong-chien-tranh-tai-viet-nam-1922.jpg?width=360&s=_hTdhx8GryeJLX_udNkZ8w"
-                        title="Thủ tướng: Dự án Nhiệt điện Nhơn Trạch 3 và 4 thể hiện tinh thần, bản lĩnh, trí tuệ Việt Nam"
+                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/150-canh-sat-vay-bat-bang-nhom-buon-ban-vu-khi-va-danh-bac-quy-mo-lon-10.png?width=360&s=k2oHskBf7zFFGUSjewZ2Sw"
+                        title="150 cảnh sát vây bắt băng nhóm buôn bán vũ khí và đánh bạc quy mô lớn"
                         link="/chinh-tri/nhiet-dien-nhon-trach-3-4"
                     />
                     <SubArticleItem
-                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/13/hoi-huong-hai-cot-quan-nhan-my-mat-tich-trong-chien-tranh-tai-viet-nam-1922.jpg?width=360&s=_hTdhx8GryeJLX_udNkZ8w"
-                        title="Thủ tướng: Dự án Nhiệt điện Nhơn Trạch 3 và 4 thể hiện tinh thần, bản lĩnh, trí tuệ Việt Nam"
+                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/xe-khach-cho-qua-13-nguoi-chu-va-lai-xe-bi-phat-gan-100-trieu-dong-2408.jpg?width=360&s=okmJGiwWQtMYnJ9x3Q7PLQ"
+                        title="Xe khách chở quá 13 người, chủ và tài xế bị phạt gần 100 triệu đồng"
                         link="/chinh-tri/nhiet-dien-nhon-trach-3-4"
                     />
                     <SubArticleItem
-                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/13/hoi-huong-hai-cot-quan-nhan-my-mat-tich-trong-chien-tranh-tai-viet-nam-1922.jpg?width=360&s=_hTdhx8GryeJLX_udNkZ8w"
-                        title="Thủ tướng: Dự án Nhiệt điện Nhơn Trạch 3 và 4 thể hiện tinh thần, bản lĩnh, trí tuệ Việt Nam"
+                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/xe-khach-cho-qua-13-nguoi-chu-va-lai-xe-bi-phat-gan-100-trieu-dong-2408.jpg?width=360&s=okmJGiwWQtMYnJ9x3Q7PLQ"
+                        title="Xe khách chở quá 13 người, chủ và tài xế bị phạt gần 100 triệu đồng"
                         link="/chinh-tri/nhiet-dien-nhon-trach-3-4"
                     />
                 </div>
             </div>
 
             <div className="mt-4">
-                <PoliticsThreeGrid />
+                <NewThreeGrid />
             </div>
             <div className="mt-4">
-                <PoliticsVerticalList />
+                <NewVerticalList />
             </div>
              <div className="news-row mt-4">
-                <NewsSection sections={listDataNewsPolitics} />
-                <NewsSection sections={listDataNewsPolitics2} />
+                <NewsSection sections={listDataNews} />
+                <NewsSection sections={listDataNews2} />
             </div>
         </div>
 

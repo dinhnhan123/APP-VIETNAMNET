@@ -380,3 +380,66 @@ export const listDataNewsPolitics2 = [
   },
   
 ];
+
+export const listDataNews = [
+  {
+    id: "dan-sinh",
+    title: "DÂN SINH",
+    main: {
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/25/2025-ha-noi-troi-ret-mien-bac-thap-nhat-duoi-8-do-3169.jpg?width=260&s=fQbYjvQLruDvMgahZ6GwRg",
+      title: "Dự báo thời tiết 27/12/2025: Hà Nội rét khô, chênh lệch ngày đêm gần 10 độ",
+    },
+    items: [
+      "Những câu nói quen thuộc từ cuộc gọi số lạ: Nghe là biết lừa đảo",
+      "Thưởng Tết Nguyên đán ở Đồng Nai cao nhất 840 triệu đồng",
+      "Cảnh sát thả dây, giải cứu nam thanh niên mắc kẹt dưới hố sâu 10m",
+    ],
+  },
+  {
+    id: "giao-thong",
+    title: "GIAO THÔNG",
+    main: {
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/lan-duong-danh-rieng-cho-xe-dap-dau-tien-tai-tphcm-lo-dien-sau-2-thang-thi-cong-2428.jpg?width=260&s=iPMuCJpo5aA6fTsbvEVzGQ",
+      title:
+        "Làn đường dành riêng cho xe đạp đầu tiên tại TPHCM lộ diện sau 2 tháng thi công",
+      comments: 30,
+    },
+    items: [
+      "Cận cảnh đại công trường thi công cầu vượt sông Hồng gần 10.000 tỷ đồng",
+      "Xe khách chở quá 13 người, chủ và tài xế bị phạt gần 100 triệu đồng",
+      "TPHCM dẫn đầu cả nước về đăng ký mới ô tô, xe máy trong năm 2025, dự án lãng phí lớn",
+    ],
+  },
+  
+];
+export const listDataNews2 = [
+  {
+    id: "tin-nong",
+    title: "TIN NÓNG",
+    main: {
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/lao-cai-xe-khach-lat-ngua-duoi-chan-doc-5-nguoi-tu-vong-452.jpg?width=260&s=gUs-5AE3WiyZ9lJHehMeaA",
+      title: "Lào Cai: Xe khách lật ngửa dưới chân dốc, ít nhất 5 người tử vong",
+    },
+    items: [
+      "An Giang xử lý hành chính 182 cá nhân, chuyển cơ quan điều tra 8 vụ việc",
+      "Cháy tiệm điện nước, 4 người trong gia đình tử vong",
+      "Kết quả thử nghiệm giả bị sử dụng tràn lan: Lộ rõ 'khoảng trống pháp lý'",
+    ],
+  },
+  {
+    id: "do-thi",
+    title: "ĐÔ THỊ",
+    main: {
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/chay-xe-may-bang-mot-banh-2-thanh-nien-da-nang-bi-tich-thu-xe-xu-phat-nang-2313.gif?width=260&s=XO_975oczppqtN78YGClaw",
+      title:
+        "Chạy xe máy bằng một bánh, 2 thanh niên Đà Nẵng bị tịch thu xe, xử phạt nặng",
+      comments: 32,
+    },
+    items: [
+      "Chạy xe máy bằng một bánh, 2 thanh niên Đà Nẵng bị tịch thu xe, xử phạt nặng",
+      "Mở khóa thể chế, TOD tạo đòn bẩy không gian phát triển TPHCM",
+      "TPHCM yêu cầu 168 xã, phường báo cáo vướng mắc liên quan đến trụ sở dôi dư",
+    ],
+  },
+  
+];
