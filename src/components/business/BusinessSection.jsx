@@ -1,7 +1,7 @@
 import React from "react";
-import "../../styles/news/newsSection.css";
+import "../../styles/business/businessSection.css";
 
-const NewsSection = ({ sections }) => {
+const BusinessSection = ({ sections }) => {
   return (
     <div className="news-wrapper">
       {sections.map((section) => (
@@ -31,4 +31,4 @@ const NewsSection = ({ sections }) => {
   );
 };
 
-export default NewsSection;
+export default BusinessSection;

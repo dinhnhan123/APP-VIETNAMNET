@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const NewHotList = () => {
+const BusinessHotList = () => {
     return (
         <div className="politics-hot-list">
 
@@ -26,4 +26,4 @@ const NewHotList = () => {
     );
 };
 
-export default NewHotList;
+export default BusinessHotList;

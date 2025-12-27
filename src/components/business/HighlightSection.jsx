@@ -1,30 +1,30 @@
 import HighlightItem from "./HighlightItem";
-import "../../styles/news/highlight.css";
+import "../../styles/business/highlight.css";
 
 const HighlightSection = () => {
   const highlights = [
     {
-      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/25/2025-ha-noi-troi-ret-mien-bac-thap-nhat-duoi-8-do-3169.jpg?width=360&s=lOLsTPIwxYNJtfgg7SZAIQ",
-      category: "DÂN SINH",
-      title: "Dự báo thời tiết 27/12/2025: Hà Nội rét khô, chênh lệch ngày đêm gần 10 độ",
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/ghe-nong-ngan-hang-hinh-anh-moi-cua-bau-thuy-ba-nguyen-thanh-phuong-rut-khoi-hdqt-918.jpg?width=360&s=13GGKj1FRAvAl0n5FAoQEg",
+      category: "TÀI CHÍNH",
+      title: "‘Ghế nóng’ ngân hàng: Hình ảnh mới của 'bầu Thuỵ', bà Nguyễn Thanh Phượng rút khỏi HĐQT",
       link: "/chinh-tri/thu-tuong-du-hoi-nghi"
     },
     {
-      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/lan-duong-danh-rieng-cho-xe-dap-dau-tien-tai-tphcm-lo-dien-sau-2-thang-thi-cong-2428.jpg?width=360&s=DzwOoV4r5IFd2wf100Bn3g",
-      category: "GIAO THÔNG",
-      title: "Làn đường dành riêng cho xe đạp đầu tiên tại TPHCM lộ diện sau 2 tháng thi công",
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/hang-khong-1-923.jpg?width=360&s=9LxR7G9lSJ2nj8DaclLQOQ",
+      category: "ĐẦU TƯ",
+      title: "Vượt đỉnh trước dịch, hàng không Việt Nam tạo đà ‘cất cánh’",
       link: "/chinh-tri/ban-bi-thu"
     },
     {
-      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/lao-cai-xe-khach-lat-ngua-duoi-chan-doc-5-nguoi-tu-vong-452.jpg?width=360&s=8un9fUAAO4KxCE5U3YhjMw",
-      category: "TIN NÓNG",
-      title: "Lào Cai: Xe khách lật ngửa dưới chân dốc, 8 người tử vong",
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/vuot-nhieu-chong-gai-the-manh-viet-bang-bang-len-dinh-lich-su-248.png?width=360&s=Y924I9gxk1zf-W5bjlwYAA",
+      category: "THỊ TRƯỜNG",
+      title: "Vượt nhiều ‘chông gai’, thế mạnh Việt băng băng lên đỉnh lịch sử",
       link: "/doi-ngoai/chau-phi"
     },
     {
-      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/nhung-cau-noi-quen-thuoc-tu-cuoc-goi-so-la-nghe-la-biet-lua-dao-3366.png?width=360&s=eIL9bvlS4FIpbIb_FrF-6g",
-      category: "DÂN SINH",
-      title: "Những câu nói quen thuộc từ cuộc gọi số lạ: Nghe là biết lừa đảo",
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/20/nghi-bi-lua-dao-chu-dong-nhap-sai-mat-khau-5-lan-de-khoa-quyen-truy-cap-1196.jpg?width=360&s=KhOkVlpawIArC6ykDlm-DA",
+      category: "TƯ VẤN TÀI CHÍNH",
+      title: "Nghi bị lừa đảo, chủ động nhập sai mật khẩu 5 lần để khoá quyền truy cập",
       link: "/ban-luan/giam-hop"
     }
   ];

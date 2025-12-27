@@ -443,3 +443,66 @@ export const listDataNews2 = [
   },
   
 ];
+
+export const listDataBusiness = [
+  {
+    id: "tai-chinh",
+    title: "TÀI CHÍNH",
+    main: {
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/ghe-nong-ngan-hang-hinh-anh-moi-cua-bau-thuy-ba-nguyen-thanh-phuong-rut-khoi-hdqt-918.jpg?width=260&s=sYsREcENZ2RhEHD76P74jQ",
+      title: "‘Ghế nóng’ ngân hàng: Hình ảnh mới của 'bầu Thuỵ', bà Nguyễn Thanh Phượng rút khỏi HĐQT",
+    },
+    items: [
+      "Giá vàng hôm nay 27/12/2025: Nhiều yếu tố nâng đỡ, vàng vượt đỉnh",
+      "Cơn địa chấn bạc toàn cầu: Giá tăng dựng đứng, áp đảo vàng",
+      "Giá vàng nhẫn Bảo Tín Minh Châu đắt thêm 1 triệu, lập kỷ lục mới",
+    ],
+  },
+  {
+    id: "doanh-nhan",
+    title: "DOANH NHÂN",
+    main: {
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/hao-quang-shark-tank-va-mat-toi-phap-ly-cua-cac-ca-map-236.jpg?width=260&s=yx_5x5rabT_J6DHfJ-h41Q",
+      title:
+        "Hào quang Shark Tank và mặt tối pháp lý của các 'cá mập'",
+      comments: 30,
+    },
+    items: [
+      "Shark Hưng nói về các thông tin 'đang bị suy diễn'",
+      "Elon Musk và làn sóng tỷ phú công nghệ giàu lên nhanh nhất lịch sử",
+      "Nhiều nhóm thu nhập hết lo nộp thuế; ‘chốt’ doanh thu miễn thuế 500 triệu/năm",
+    ],
+  },
+  
+];
+export const listDataBusiness1= [
+  {
+    id: "dau-tu",
+    title: "ĐẦU TƯ",
+    main: {
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/hang-khong-1-923.jpg?width=260&s=dBLVGB3Di9ZnXTSSOXCPLw",
+      title: "Vượt đỉnh trước dịch, hàng không Việt Nam tạo đà ‘cất cánh’",
+    },
+    items: [
+      "Tăng trưởng ngoạn mục, công nghiệp Việt tham gia sâu vào chuỗi cung ứng toàn cầu",
+      "Du lịch Đà Nẵng vượt xa đỉnh trước dịch, xác lập vị thế hàng đầu miền Trung",
+      "Công ty dệt may tại TPHCM giải thể, hơn 2.000 lao động lo lắng vì Tết cận kề",
+    ],
+  },
+  {
+    id: "do-thi",
+    title: "ĐÔ THỊ",
+    main: {
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/vuot-nhieu-chong-gai-the-manh-viet-bang-bang-len-dinh-lich-su-248.png?width=260&s=0F6HnpiE1OH1jpzyxMjd5A",
+      title:
+        "Vượt nhiều ‘chông gai’, thế mạnh Việt băng băng lên đỉnh lịch sử",
+      comments: 32,
+    },
+    items: [
+      "DPGroup định hướng đẩy mạnh phát triển lĩnh vực giáo dục",
+      "Việt Nam thành nguồn cung ‘vàng đen’ lớn nhất cho Mỹ",
+      "Thưởng Tết tại Đà Nẵng giảm mạnh, cao nhất chỉ còn 368 triệu đồng",
+    ],
+  },
+  
+];
