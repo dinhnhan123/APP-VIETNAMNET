@@ -11,6 +11,7 @@ import RegisterPage from "./pages/RegisterPage";
 import PoliticsPage from "./pages/PoliticsPage";
 import NewsPage from "./pages/NewsPage";
 import Business from "./pages/Business";
+import EthnicityReligion from "./pages/EthnicityReligion";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HealthPage from "./pages/HealthPage";
 import TechPage from "./pages/TechPage";
@@ -28,6 +29,7 @@ const App = () => {
         <Route path="/chinh-tri" element={<PoliticsPage />} />
         <Route path="/thoi-su" element={<NewsPage />} />
         <Route path="/kinh-doanh" element={<Business />} />
+        <Route path="/dan-toc-va-ton-giao" element={<EthnicityReligion />} />
         <Route path="/cat" element={<CatPage />} />
         <Route path="/suc-khoe" element={<HealthPage />} />
         <Route path="/cong-nghe" element={<TechPage />} />
