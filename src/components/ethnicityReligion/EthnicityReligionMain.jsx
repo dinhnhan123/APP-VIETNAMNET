@@ -5,8 +5,8 @@ import EthnicityReligionThreeGrid from "./EthnicityReligionThreeGrid.jsx";
 import EthnicityReligionVerticalList from "./EthnicityReligionVerticalList.jsx";
 import EthnicityReligionSection from "./EthnicityReligionSection.jsx";
 import {
-    listDataBusiness,
-    listDataBusiness1
+    listDataEthnicityReligions,
+    listDataEthnicityReligions1
 } from "../../fakeApi.jsx";
 //style 
 import "../../styles/ethnicityReligion/EthnicityReligionSection.css";
@@ -29,24 +29,24 @@ const EthnicityReligionMain = () => {
                 <div className="main-right">
 
                     <SubArticleItem
-                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/ghe-nong-ngan-hang-hinh-anh-moi-cua-bau-thuy-ba-nguyen-thanh-phuong-rut-khoi-hdqt-918.jpg?width=360&s=13GGKj1FRAvAl0n5FAoQEg"
-                        title="‘Ghế nóng’ ngân hàng: Hình ảnh mới của 'bầu Thuỵ', bà Nguyễn Thanh Phượng rút khỏi HĐQT"
+                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/thang-2007.jpeg?width=360&s=YsH6POEPwDKLnWSYWh1DUg"
+                        title="Mỗi học sinh xã biên giới được Nhà nước hỗ trợ 450.000 đồng và 8kg gạo/tháng"
                         link="/chinh-tri/hoi-huong-hai-cot-quan-nhan-my"
                     />
 
                     <SubArticleItem
-                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/hang-khong-1-923.jpg?width=360&s=9LxR7G9lSJ2nj8DaclLQOQ"
-                        title="Vượt đỉnh trước dịch, hàng không Việt Nam tạo đà ‘cất cánh’"
+                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/tong-bi-thu-neu-3-yeu-cau-tiep-tuc-cham-lo-boi-duong-the-he-tre-nguoi-dan-toc-thieu-so-2457.jpg?width=360&s=KidZau04htGWagN8vyALBw"
+                        title="Tổng Bí thư nêu 3 yêu cầu tiếp tục chăm lo bồi dưỡng thế hệ trẻ người dân tộc thiểu số"
                         link="/chinh-tri/nhiet-dien-nhon-trach-3-4"
                     />
                     <SubArticleItem
-                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/vuot-nhieu-chong-gai-the-manh-viet-bang-bang-len-dinh-lich-su-248.png?width=360&s=Y924I9gxk1zf-W5bjlwYAA"
-                        title="Vượt nhiều ‘chông gai’, thế mạnh Việt băng băng lên đỉnh lịch sử"
+                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/25/z7364615723330-7d49b6ba14d75bf73ad902256ce291da-2912.jpg?width=360&s=aRtUCSjLoakQN2og12EoHw"
+                        title="Từ Lễ tuyên dương đến hành trình trưởng thành của thanh niên dân tộc thiểu số"
                         link="/chinh-tri/nhiet-dien-nhon-trach-3-4"
                     />
-                   <SubArticleItem
-                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/vuot-nhieu-chong-gai-the-manh-viet-bang-bang-len-dinh-lich-su-248.png?width=360&s=Y924I9gxk1zf-W5bjlwYAA"
-                        title="Vượt nhiều ‘chông gai’, thế mạnh Việt băng băng lên đỉnh lịch sử"
+                    <SubArticleItem
+                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/25/z7364615723330-7d49b6ba14d75bf73ad902256ce291da-2912.jpg?width=360&s=aRtUCSjLoakQN2og12EoHw"
+                        title="Từ Lễ tuyên dương đến hành trình trưởng thành của thanh niên dân tộc thiểu số"
                         link="/chinh-tri/nhiet-dien-nhon-trach-3-4"
                     />
                 </div>
@@ -59,8 +59,8 @@ const EthnicityReligionMain = () => {
                 <EthnicityReligionVerticalList />
             </div>
              <div className="news-row mt-4">
-                <EthnicityReligionSection sections={listDataBusiness} />
-                <EthnicityReligionSection sections={listDataBusiness1} />
+                <EthnicityReligionSection sections={listDataEthnicityReligions} />
+                <EthnicityReligionSection sections={listDataEthnicityReligions1} />
             </div>
         </div>
 

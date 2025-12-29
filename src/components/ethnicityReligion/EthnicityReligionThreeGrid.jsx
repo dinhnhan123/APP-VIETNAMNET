@@ -6,27 +6,27 @@ const EthnicityReligionThreeGrid = () => {
 
             <div className="col-12 col-md-4">
                 <Link to="/chinh-tri/giam-hoi-hop" className="grid-item">
-                    <img src="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/con-dia-chan-bac-toan-cau-gia-tang-dung-dung-ap-dao-vang-904.jpg?width=360&s=VoBX_5NzyDY4ecK_2EcBkw" alt="" />
+                    <img src="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/bo-truong-dao-ngoc-dung-le-tuyen-duong-la-hanh-trang-quy-bau-de-cac-em-tiep-tuc-no-luc-hoc-tap-cong-hien-2501.jpg?width=360&s=fpAVTIBZbyRwQuRPMR_uFQ" alt="" />
                     <h6>
-                       Cơn địa chấn bạc toàn cầu: Giá tăng dựng đứng, áp đảo vàng
+                       Bộ trưởng Đào Ngọc Dung: Lễ Tuyên dương là hành trang quý báu để các em tiếp tục nỗ lực học tập, cống hiến
                     </h6>
                 </Link>
             </div>
 
             <div className="col-12 col-md-4">
                 <Link to="/chinh-tri/cong-an-nhan-dan" className="grid-item">
-                    <img src="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/2025-nhieu-yeu-to-nang-do-vang-vuot-dinh-2798.jpg?width=360&s=YgXzuOvoabwVTohwu9neoA" alt="" />
+                    <img src="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/tong-bi-thu-gap-mat-150-hoc-sinh-sinh-vien-thanh-nien-dan-toc-thieu-so-xuat-sac-tieu-bieu-2236.jpg?width=360&s=VDPPCpY0b6J1Qt3DMZaRmA" alt="" />
                     <h6>
-                        Giá vàng hôm nay 27/12/2025: Nhiều yếu tố nâng đỡ, vàng vượt đỉnh
+                        Tổng Bí thư gặp mặt 150 học sinh, sinh viên, thanh niên dân tộc thiểu số xuất sắc, tiêu biểu
                     </h6>
                 </Link>
             </div>
 
             <div className="col-12 col-md-4">
                 <Link to="/chinh-tri/hai-quan-vung-2" className="grid-item">
-                    <img src="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/vuot-nhieu-chong-gai-the-manh-viet-bang-bang-len-dinh-lich-su-248.png?width=360&s=Y924I9gxk1zf-W5bjlwYAA" alt="" />
+                    <img src="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/25/z7364615723330-7d49b6ba14d75bf73ad902256ce291da-2912.jpg?width=360&s=aRtUCSjLoakQN2og12EoHw" alt="" />
                     <h6>
-                       Vượt nhiều ‘chông gai’, thế mạnh Việt băng băng lên đỉnh lịch sử
+                      Từ Lễ tuyên dương đến hành trình trưởng thành của thanh niên dân tộc thiểu số
                     </h6>
                 </Link>
             </div>

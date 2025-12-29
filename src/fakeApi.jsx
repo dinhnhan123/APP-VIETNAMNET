@@ -506,3 +506,66 @@ export const listDataBusiness1= [
   },
   
 ];
+
+export const listDataEthnicityReligions = [
+  {
+    id: "tin tuc",
+    title: "TIN TỨC",
+    main: {
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/24/thu-truong-nguyen-hai-trung-gap-mat-dai-bieu-dien-hinh-vung-dong-bao-dtts-tinh-tuyen-quang-3125.jpg?width=260&s=efiOwhdhPnzatbxe_AIayg",
+      title: "Thứ trưởng Nguyễn Hải Trung gặp mặt đại biểu điển hình vùng đồng bào DTTS tỉnh Tuyên Quang",
+    },
+    items: [
+      "Binh đoàn 15 khởi công xây dựng Nhà rông văn hóa xã biên giới Ia Dom",
+      "Bộ trưởng Dân tộc và Tôn giáo gửi thư chúc mừng nhân dịp Giáng sinh và năm mới",
+      "Khánh thành Khách sạn Dân tộc: Công trình mang ý nghĩa sâu sắc với đồng bào dân tộc, tôn giáo",
+    ],
+  },
+  {
+    id: "sac-mau-viet-nam",
+    title: "SẮC MÀU VIỆT NAM",
+    main: {
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/20/lop-hoc-bai-choi-ban-dem-o-rung-ngap-man-1459.jpg?width=260&s=eZxPbf6SeWJlddq-GokSSA",
+      title:
+        "Lớp học bài chòi ban đêm ở rừng ngập mặn",
+      comments: 30,
+    },
+    items: [
+      "Ngôi chùa Khmer ở TPHCM tất bật chuẩn bị lễ hội đua ghe lớn nhất năm",
+      "Tiếng cồng chiêng người Mường vang dội trên phố đi bộ hồ Hoàn Kiếm",
+      "Những đôi tay mềm giữ nhịp chiêng ngân",
+    ],
+  },
+  
+];
+export const listDataEthnicityReligions1= [
+  {
+    id: "nhan-vat",
+    title: "NHÂN VẬT",
+    main: {
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/28/bi-thu-xa-di-nguoc-nep-cu-mo-loi-thoat-ngheo-cho-vung-dat-can-o-gia-lai-2070.jpg?width=260&s=su7klgEx-4CBdqsmuImyyQ",
+      title: "Bí thư xã đi ngược nếp cũ, mở lối thoát nghèo cho vùng đất cằn ở Gia Lai",
+    },
+    items: [
+      "Từ Lễ tuyên dương đến hành trình trưởng thành của thanh niên dân tộc thiểu số",
+      "Những già làng lặng lẽ giữ hồn văn hóa giữa đại ngàn",
+      "Từ nương ngô đến kinh tế số: Chàng trai người Mông làm giàu từ nuôi bồ câu",
+    ],
+  },
+  {
+    id: "doi-song-va-ton-giao",
+    title: "ĐỜI SỐNG VÀ TÔN GIÁO",
+    main: {
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/28/le-dang-lua-up-mat-vao-da-cau-nguyen-trong-ngoi-den-tram-tuoi-o-tphcm-2026.jpg?width=260&s=6riOgPhx7OwyhIxK35SXvA",
+      title:
+        "Lễ “dâng lửa”, úp mặt vào đá cầu nguyện trong ngôi đền trăm tuổi ở TPHCM",
+      comments: 32,
+    },
+    items: [
+      "Làm rõ vai trò các Thánh tổ triều Lý trong lịch sử Phật giáo Việt Nam",
+      "Nhà thờ Phạm Pháo lung linh đêm Giáng sinh",
+      "Ngày Phật hoàng Trần Nhân Tông nhập niết bàn, nghĩ về tư tưởng Tam hòa của Ngài",
+    ],
+  },
+  
+];

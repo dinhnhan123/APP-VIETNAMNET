@@ -9,7 +9,7 @@ const EthnicityReligionPage = () => {
         <EthnicityReligionMain />
         <EthnicityReligionSidebar />
          <div className="mt-4">
-                <HighlightSection/>
+                {/* <HighlightSection/> */}
             </div>
       </div>
     </div>

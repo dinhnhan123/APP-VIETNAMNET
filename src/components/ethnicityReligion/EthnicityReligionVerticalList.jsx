@@ -6,102 +6,102 @@ import "../../styles/ethnicityReligion/EthnicityReligionVerticalList.css";
 const EthnicityReligionVerticalList = () => {
    const articles = [
         {
-            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/2026-ho-kinh-doanh-thieu-tien-nop-phat-se-bi-cuong-che-sang-tai-san-tung-thanh-vien-ho-651.jpg?width=360&s=w-uWiS1qBvGzp2CAPkAFew",
-            category: "TÀI CHÍNH",
-            title: "Từ 1/1/2026, hộ kinh doanh thiếu tiền nộp phạt sẽ bị cưỡng chế sang tài sản từng thành viên hộ",
-            desc: "Quy định mới về cưỡng chế thi hành quyết định xử phạt vi phạm hành chính trong trường hợp tài sản chung không đủ thì khấu trừ tiền, kê biên tài sản của các thành viên trong hộ kinh doanh, hộ gia đình.",
+            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/nguoi-co-uy-tin-o-son-la-cau-noi-vun-dap-tinh-doan-ket-viet-nam-lao-163.jpg?width=360&s=qWecSg07e41omLLFrPTozg",
+            category: "DÂN TỘC VÀ TÔN GIÁO",
+            title: "Người có uy tín ở Sơn La: “Cầu nối” vun đắp tình đoàn kết Việt Nam - Lào",
+            desc: "Người có uy tín ở tỉnh Sơn La là lực lượng quan trọng giúp đưa chủ trương, chính sách của Đảng và Nhà nước đến với từng bản làng, từng gia đình, góp phần giữ gìn biên giới hòa bình, vun đắp tình đoàn kết Việt Nam – Lào bền chặt.",
             link: "/chinh-tri/truong-du-bi-dai-hoc"
         },
         {
-            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/viet-nam-thanh-nguon-cung-vang-den-lon-nhat-cho-my-2813.jpg?width=360&s=lHBMoIB4dhr95tuybAuMgg",
-            category: "THỊ TRƯỜNG",
-            title: "Việt Nam thành nguồn cung ‘vàng đen’ lớn nhất cho Mỹ",
-            desc: "Chiếm tới 69,3% kim ngạch nhập khẩu, Việt Nam trở thành nhà cung cấp “vàng đen” lớn nhất cho Mỹ trong năm nay với giá cao.",
+            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/25/nha-tho-pham-phao-lung-linh-dem-giang-sinh-795.jpg?width=360&s=y7Ho7W6ZihxJP3-QjRE0ZA",
+            category: "DÂN TỘC VÀ TÔN GIÁO",
+            title: "Nhà thờ Phạm Pháo lung linh đêm Giáng sinh",
+            desc: "Nhà thờ giáo xứ Phạm Pháo ở Ninh Bình lung linh trong đêm Giáng sinh (24/12). Đây là địa điểm luôn thu hút đông đảo giáo dân và du khách.",
             link: "/doi-ngoai/viet-nam-keu-goi"
         },
         {
-            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/bien-ho-chua-nuoc-thanh-nha-may-dien-mat-troi-lon-nhat-dong-nam-a-2940.png?width=360&s=OLmudOCxwsTDP-2txmNw7A",
-            category: "NET ZERO",
-            title: "Biến hồ chứa nước thành nhà máy điện mặt trời lớn nhất Đông Nam Á",
-            desc: "MALAYSIA - Với diện tích khoảng 384ha và cung cấp đủ năng lượng cho hơn 100.000 hộ gia đình, nhà máy điện mặt trời nổi trên mặt hồ chứ nước tại Chereh Dam có quy mô lớn nhất Đông Nam Á..",
+            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/24/chia-khoa-nang-cao-chat-luong-nguon-nhan-luc-vung-dong-bao-dan-toc-thieu-so-1147.jpg?width=360&s=DqH4FiLieNr9sfS_wWKLFw",
+            category: "DÂN TỘC VÀ TÔN GIÁO",
+            title: "Chìa khóa nâng cao chất lượng nguồn nhân lực vùng đồng bào dân tộc thiểu số",
+            desc: "Nhờ sự quan tâm đầu tư đồng bộ về cơ sở vật chất trường nội trú, bán trú cùng các chính sách đặc thù, giáo dục vùng đồng bào dân tộc thiểu số (DTTS) và miền núi đang có những chuyển biến rõ nét.",
             link: "/doi-ngoai/viet-nam-keu-goi"
         },
         {
-            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/tu-ke-khai-thue-tu-2026-ho-kinh-doanh-lo-sai-sot-bi-phat-toi-8-trieu-dong-2390.jpg?width=360&s=T6x6DvcDXbstbv2p_hFa-g",
-            category: "TÀI CHÍNH",
-            title: "Tự kê khai thuế từ 2026, hộ kinh doanh lo sai sót bị phạt tới 8 triệu đồng",
-            desc: "Khi chuyển từ thuế khoán sang tự kê khai, hộ và cá nhân kinh doanh đối mặt nguy cơ sai sót dữ liệu, trong khi mức phạt hiện hành có thể lên tới 6-8 triệu đồng. Hộ kinh doanh mong được hỗ trợ để yên tâm chuyển đổi, không lo bị xử phạt.",
+            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/24/thu-truong-nguyen-hai-trung-gap-mat-dai-bieu-dien-hinh-vung-dong-bao-dtts-tinh-tuyen-quang-3125.jpg?width=360&s=_mYay8TkgDcFJXmIw5pD_Q",
+            category: "DÂN TỘC VÀ TÔN GIÁO",
+            title: "Thứ trưởng Nguyễn Hải Trung gặp mặt đại biểu điển hình vùng đồng bào DTTS tỉnh Tuyên Quang",
+            desc: "Chiều 24/12, Thứ trưởng Bộ Dân tộc và Tôn giáo Nguyễn Hải Trung đã gặp mặt Đoàn đại biểu điển hình tiên tiến trong vùng đồng bào dân tộc thiểu số (DTTS) tỉnh Tuyên Quang.",
             link: "/doi-ngoai/viet-nam-keu-goi"
         },
         {
-            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/bao-tin-capital-dat-top-10-doanh-nghiep-xuat-sac-chau-a-thai-binh-duong-2025-742.png?width=360&s=LEpJMNG9JSJw_spjRvMM-Q",
-            category: "THỊ TRƯỜNG",
-            title: "Bảo Tín Capital đạt Top 10 Doanh nghiệp xuất sắc Châu Á - Thái Bình Dương 2025",
-            desc: "Bảo Tín Capital - thành viên của Công ty Cổ phần Tập đoàn Bảo Tín - đã vinh dự được xướng danh trong Top 10 Doanh nghiệp xuất sắc Châu Á - Thái Bình Dương năm 2025 tại Diễn đàn Kinh tế Châu Á - Thái Bình Dương lần thứ 4.",
+            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/24/bo-truong-dan-toc-va-ton-giao-gui-thu-chuc-mung-nhan-dip-giang-sinh-va-nam-moi-275.jpg?width=360&s=67lOHnr_7c6tQBdTi38c_Q",
+            category: "CHÍNH TRỊ",
+            title: "Bộ trưởng Dân tộc và Tôn giáo gửi thư chúc mừng nhân dịp Giáng sinh và năm mới",
+            desc: "Nhân dịp lễ Giáng sinh năm 2025 và chào đón năm mới 2026, Ủy viên Trung ương Đảng, Bộ trưởng Bộ Dân tộc và Tôn giáo Đào Ngọc Dung đã có thư chúc mừng gửi tới các vị chức sắc, chức việc, tu sĩ cùng toàn thể đồng bào Công giáo, Tin Lành.",
             link: "/doi-ngoai/viet-nam-keu-goi"
         },
         {
-            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/ma-don-bay-tai-cau-truc-de-toi-uu-van-hanh-nganh-hang-tieu-dung-nhanh-673.jpeg?width=360&s=rdBDaMtWq4rrb_pfwIxttw",
-            category: "THỊ TRƯỜNG",
-            title: "M&A - Đòn bẩy tái cấu trúc để tối ưu vận hành ngành hàng tiêu dùng nhanh",
-            desc: "Thay vì chỉ tăng quy mô, nhiều doanh nghiệp chọn M&A như 1 công cụ để khai thác giá trị tiềm ẩn của những tài sản chưa được sử dụng hiệu quả. Thương vụ Sabeco tiếp quản Công ty Cổ phần Tập đoàn Bia Sài Gòn Bình Tây Sabibeco là 1 trường hợp điển hình.",
+            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/23/khi-nguoi-linh-tro-thanh-hat-nhan-lan-toa-tri-thuc-so-360.jpg?width=360&s=U2_ubH1k3IbGxE1dqlfCtA",
+            category: "DÂN TỘC VÀ TÔN GIÁO",
+            title: "Khi người lính trở thành hạt nhân lan tỏa tri thức số",
+            desc: "Với mỗi người lính, phong trào “Bình dân học vụ số” không chỉ là việc phổ cập kỹ năng công nghệ, mà là một nhiệm vụ mang ý nghĩa chiến lược.",
             link: "/doi-ngoai/viet-nam-keu-goi"
         },
         {
-            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/kho-bac-nha-nuoc-da-chi-tra-hon-163-2233.jpg?width=360&s=qbt5kkqI89opCdpD3dO0fg",
-            category: "TÀI CHÍNH",
-            title: "Kho bạc Nhà nước đã chi trả hơn 163.400 tỷ đồng cho cán bộ nghỉ theo Nghị định 178",
-            desc: "Kho bạc Nhà nước cho biết đã thực hiện chi trả chế độ, chính sách theo Nghị định số 178/2024 của Chính phủ với số kinh phí là 163.482 tỷ đồng cho 117.073 người.",
+            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/22/tuyen-duong-hoc-sinh-sinh-vien-thanh-nien-dtts-xuat-sac-hieu-qua-tu-dau-tu-cho-giao-duc-vung-cao-1145.png?width=360&s=3G21hJ-Q2nE369eET4KZ_Q",
+            category: "DÂN TỘC VÀ TÔN GIÁO",
+            title: "Tuyên dương học sinh, sinh viên, thanh niên DTTS xuất sắc: Hiệu quả từ đầu tư cho giáo dục vùng cao",
+            desc: "145 gương mặt học sinh, sinh viên, thanh niên dân tộc thiểu số được vinh danh năm nay không chỉ ghi dấu những thành tích nổi bật trong học tập, nghiên cứu, nghệ thuật, thể thao mà còn phản ánh chuyển biến tích cực của giáo dục dân tộc giai đoạn mới.",
             link: "/doi-ngoai/viet-nam-keu-goi"
         },
         {
-            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/thuong-tet-tai-da-nang-giam-manh-cao-nhat-chi-con-368-trieu-dong-2781.jpg?width=360&s=5ReuQJvntXNXwYqEoyEorQ",
-            category: "KINH DOANH",
-            title: "Thưởng Tết tại Đà Nẵng giảm mạnh, cao nhất chỉ còn 368 triệu đồng",
-            desc: "Mức thưởng Tết 2025 tại thành phố Đà Nẵng cao nhất thuộc về một doanh nghiệp FDI với hơn 368 triệu đồng, giảm gần một nửa so với năm ngoái.",
+            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/22/tu-xoa-nha-tam-den-chien-dich-quang-trung-nguoi-linh-giup-dan-dung-lai-mai-am-530.jpg?width=360&s=oPV5VyWF7nN6twFXzghYKw",
+            category: "DÂN TỘC VÀ TÔN GIÁO",
+            title: "Từ xóa nhà tạm đến 'Chiến dịch Quang Trung': Người lính giúp dân dựng lại mái ấm",
+            desc: "Từ Chương trình xóa nhà tạm, nhà dột nát trên phạm vi cả nước đến “Chiến dịch Quang Trung” dựng nhà cho người dân sau lũ, dấu ấn người lính in rõ trên tuyến đầu.",
             link: "/doi-ngoai/viet-nam-keu-goi"
         },
         {
-            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/khong-gian-mua-sam-giua-long-thu-do-cua-muji-hanoi-centre-1466.jpg?width=360&s=0pH5MKHDroFbo8pTJjIRIw",
-            category: "THỊ TRƯỜNG",
-            title: "Không gian mua sắm giữa lòng thủ đô của MUJI Hanoi Centre",
-            desc: "Cửa hàng MUJI Hanoi Centre vừa khai trương tại vị trí đắc địa giữa lòng thủ đô trở thành địa điểm mua sắm hấp dẫn với không gian mang bản sắc văn hóa Hà Nội kết hợp tinh thần tối giản Nhật Bản.",
+            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/20/lop-hoc-bai-choi-ban-dem-o-rung-ngap-man-1459.jpg?width=360&s=uvfxGa8oELDSD8Ic20A_SQ",
+            category: "DÂN TỘC VÀ TÔN GIÁO",
+            title: "Lớp học bài chòi ban đêm ở rừng ngập mặn",
+            desc: "Rừng ngập mặn Bàu Cá Cái, xã Vạn Tường, tỉnh Quảng Ngãi không chỉ hấp dẫn du khách bởi cảnh quan hoang sơ mà còn bởi làn điệu bài chòi được bảo tồn, gìn giữ bởi các thành viên Câu lạc bộ (CLB) Đàn và Hát dân ca Bàu Cá Cái.",
             link: "/doi-ngoai/viet-nam-keu-goi"
         },
          {
-            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/27/petrovietnam-quyet-tam-but-pha-dong-gop-vao-muc-tieu-tang-truong-2-con-so-328.jpg?width=360&s=ccSNZaq4MQfn_6qoVb3eug",
-            category: "THỊ TRƯỜNG",
-            title: "Petrovietnam quyết tâm bứt phá, đóng góp vào mục tiêu tăng trưởng ‘2 con số’",
-            desc: "Petrovietnam quyết tâm thực hiện thắng lợi các chỉ tiêu kế hoạch được giao, phấn đấu để Tập đoàn bứt phá, đóng góp quan trọng vào mục tiêu tăng trưởng “2 con số” của đất nước.",
+            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/20/to-chuc-tot-phong-trao-thi-dua-de-cong-tac-dan-toc-ton-giao-thuc-su-chuyen-bien-254.jpg?width=360&s=4gWjgtL_Q_swwjgqylJ-sQ",
+            category: "DÂN TỘC VÀ TÔN GIÁO",
+            title: "Tổ chức tốt phong trào thi đua để công tác dân tộc, tôn giáo thực sự chuyển biến",
+            desc: "Bí thư Đảng ủy, Bộ trưởng Bộ Dân tộc và Tôn giáo Đào Ngọc Dung chỉ đạo toàn ngành tiếp tục quán triệt, triển khai tốt phong trào thi đua để công tác dân tộc, tôn giáo thực sự chuyển biến trong 5 năm tới.",
             link: "/doi-ngoai/viet-nam-keu-goi"
         },
         {
-            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/co-phieu-vingroup-het-giam-san-tai-san-cua-ty-phu-pham-nhat-vuong-ra-sao-1739.jpg?width=360&s=sMCgx9cJvKG7m4_RlqVBQQ",
+            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/19/nhung-gia-lang-lang-le-giu-hon-van-hoa-giua-dai-ngan-3027.png?width=360&s=JWFrJSaQfc3b7AyEB_6_Ww",
             category: "TÀI CHÍNH",
-            title: "Cổ phiếu Vingroup hết giảm sàn, tài sản của tỷ phú Phạm Nhật Vượng ra sao?",
-            desc: "Tài sản của tỷ phú Phạm Nhật Vượng tiếp tục giảm sau khi Tập đoàn Vingroup (VIC) xin rút đăng ký đầu tư dự án Đường sắt tốc độ cao Bắc - Nam.",
+            title: "Những già làng lặng lẽ giữ hồn văn hóa giữa đại ngàn",
+            desc: "Giữa đại ngàn Trường Sơn, những già làng Cơ Tu vẫn lặng lẽ gìn giữ tiếng nói, lời ca, chữ viết và nếp văn hóa của cộng đồng, trở thành điểm tựa tinh thần của bản làng giữa dòng chảy hiện đại.",
             link: "/doi-ngoai/viet-nam-keu-goi"
         },
          {
-            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/25/2025-quay-dau-giam-vang-mieng-sjc-van-gan-160-trieu-dong-2971.jpg?width=360&s=ao0G54s3bM5nq_DDFw-Enw",
-            category: "TÀI CHÍNH",
-            title: "Giá vàng hôm nay 26/12/2025: Vàng miếng bứt phá, leo lên gần 160 triệu/lượng",
-            desc: "Giá vàng hôm nay 26/12/2025 tiếp tục bứt phá mạnh khi vàng SJC leo lên vùng cao kỷ lục, áp sát mốc 160 triệu đồng/lượng.",
+            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/20/trao-ho-tro-cho-850-ho-dan-chiu-thiet-hai-do-mua-lu-o-xa-mien-nui-son-hoa-1320.jpg?width=360&s=vgmYYetrphoxB2spo26IGA",
+            category: "DÂN TỘC VÀ TÔN GIÁO",
+            title: "Trao hỗ trợ cho 850 hộ dân chịu thiệt hại do mưa lũ ở xã miền núi Sơn Hòa",
+            desc: "Hiệp hội PCCC&CNCH Việt Nam phối hợp với các đơn vị để trao hỗ trợ cho 850 hộ dân ở xã miền núi Sơn Hòa (Đắk Lắk), giúp người dân khắc phục hậu quả mưa lũ, từng bước ổn định đời sống",
             link: "/doi-ngoai/viet-nam-keu-goi"
         },
          {
-            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/vung-tau-paradise-xuyen-viet-oil-golden-hill-no-thue-nghin-ty-tai-tphcm-1348.jpg?width=360&s=e1rkAjqCXuUEN1zKlkZmbQ",
-            category: "TÀI CHÍNH",
-            title: "Vũng Tàu Paradise, Xuyên Việt Oil, Golden Hill… nợ thuế nghìn tỷ tại TPHCM",
-            desc: "Trong nhóm đầu doanh nghiệp nợ thuế vừa được Thuế TPHCM công khai, có không ít công ty hoạt động trong lĩnh vực bất động sản. Đáng chú ý, doanh nghiệp đứng đầu danh sách nợ thuế đang nợ hơn 2.000 tỷ đồng.",
+            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/19/pho-chu-tich-quoc-hoi-tham-chuc-mung-giang-sinh-toa-giam-muc-giao-phan-ban-me-thuot-cdc4f554b302401da10a71045dfaee34-4102.jpg?width=360&s=Eglals1uqk4vRyrGjfHG_A",
+            category: "CHÍNH TRỊ",
+            title: "Phó Chủ tịch Quốc hội thăm, chúc mừng Giáng sinh Tòa Giám mục Giáo phận Ban Mê Thuột",
+            desc: "Chiều 19/12, Phó Chủ tịch Quốc hội, Thượng tướng Trần Quang Phương cùng đoàn công tác của Quốc hội đã đến thăm, chúc mừng Tòa Giám mục Giáo phận Ban Mê Thuột và Giám mục Giáo phận Ban Mê Thuột Gioan Baotixita Nguyễn Huy Bắc.",
             link: "/doi-ngoai/viet-nam-keu-goi"
         },
          
          {
-            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/26/cu-soc-ho-vin-roi-manh-thi-truong-chao-dao-dau-phien-533.jpg?width=360&s=e-zZvjY7yX0SaRibdxFPsw",
-            category: "TÀI CHÍNH",
-            title: "Diễn biến nhóm 'cổ phiếu Vin' sau thay đổi mục tiêu đầu tư",
-            desc: "Nhóm cổ phiếu 'họ Vin' tiếp tục lao dốc và tài sản tỷ phú Phạm Nhật Vượng bốc hơi nhanh chóng sau thông tin Tập đoàn Vingroup (VIC) xin rút đăng ký đầu tư dự án Đường sắt tốc độ cao Bắc - Nam. VN-Index mất thêm hơn 30 điểm.",
+            image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/19/bo-ngoai-giao-len-tieng-ve-bao-cao-cap-nhat-ve-viet-nam-cua-my-3919.jpg?width=360&s=EGn-VNLUzT10rIcRMv_DlQ",
+            category: "ĐỐI NGOẠI",
+            title: "Bộ Ngoại giao lên tiếng về báo cáo cập nhật về Việt Nam của Mỹ",
+            desc: "Người phát ngôn Bộ Ngoại giao bác bỏ những đánh giá không khách quan, không chính xác của Ủy ban Tự do tôn giáo quốc tế Mỹ về tình hình tôn giáo tại Việt Nam.",
             link: "/doi-ngoai/viet-nam-keu-goi"
         },
     ];
