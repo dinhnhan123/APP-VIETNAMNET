@@ -1,32 +1,38 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../styles/business/businessSection.css";
 
-const BusinessSection = ({ sections }) => {
+const BusinessSection = ({ sections = [] }) => {
+  if (!sections.length) return null;
+
+  const main = sections[0];
+  const list = sections.slice(1, 6);
+
   return (
-    <div className="news-wrapper">
-      {sections.map((section) => (
-        <div key={section.id} className="news-column">
-          <h3 className="news-title">{section.title}</h3>
+    <div className="news-column">
+      {/* MAIN */}
+      <div className="news-main">
+        <Link to={main.link}>
+          {main.image && <img src={main.image} alt={main.title} />}
+        </Link>
 
-          <div className="news-main">
-            <img src={section.main.image} alt="" />
-            <div className="news-main-content">
-              <h4>{section.main.title}</h4>
-              {section.main.comments && (
-                <span className="comment">
-                  💬 {section.main.comments}
-                </span>
-              )}
-            </div>
-          </div>
-
-          <ul className="news-list">
-            {section.items.map((item, idx) => (
-              <li key={idx}>{item}</li>
-            ))}
-          </ul>
+        <div className="news-main-content">
+          <Link to={main.link} className="text-dark text-decoration-none">
+            <h4>{main.title}</h4>
+          </Link>
         </div>
-      ))}
+      </div>
+
+      {/* LIST */}
+      <ul className="news-list">
+        {list.map(item => (
+          <li key={item.id}>
+            <Link to={item.link} className="text-decoration-none">
+              {item.title}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };

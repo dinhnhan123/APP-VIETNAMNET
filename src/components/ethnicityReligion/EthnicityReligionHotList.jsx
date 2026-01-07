@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const ethnicityReligionHotList = () => {
+const EthnicityReligionHotList = () => {
     return (
         <div className="politics-hot-list">
 
@@ -26,4 +26,4 @@ const ethnicityReligionHotList = () => {
     );
 };
 
-export default ethnicityReligionHotList;
+export default EthnicityReligionHotList;

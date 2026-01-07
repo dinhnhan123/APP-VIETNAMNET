@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const NewVerticalItem = ({ image, category, title, desc, link }) => {
+const EthnicityReligionVerticalItem = ({ image, category, title, desc, link }) => {
     return (
         <div className="politics-vertical-item d-flex mb-4">
         
@@ -22,4 +22,4 @@ const NewVerticalItem = ({ image, category, title, desc, link }) => {
     );
 };
 
-export default NewVerticalItem;
+export default EthnicityReligionVerticalItem;
