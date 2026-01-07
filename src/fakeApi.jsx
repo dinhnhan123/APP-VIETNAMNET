@@ -569,3 +569,63 @@ export const listDataEthnicityReligions1= [
   },
   
 ];
+export const listDataNewsHealth = [
+  {
+    id: "y-te",
+    title: "Y TẾ",
+    main: {
+      image:
+        "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/9/di-may-bay-trong-dem-ra-ha-noi-cuu-ngon-tay-bi-dut-roi-sau-25-gio-529.jpg",
+      title: "Đi máy bay trong đêm ra Hà Nội cứu ngón tay bị đứt rời sau 25 giờ",
+    },
+    items: [
+      "Khám sức khỏe định kỳ giúp phát hiện sớm bệnh nguy hiểm",
+      "Ăn uống lành mạnh giảm nguy cơ tim mạch",
+      "Chăm sóc sức khỏe tinh thần trong cuộc sống hiện đại",
+    ],
+  },
+  {
+    id: "doi-song",
+    title: "ĐỜI SỐNG",
+    main: {
+      image:
+        "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/9/suc-khoe-tinh-than-4455.jpg",
+      title: "Chăm sóc sức khỏe tinh thần trong cuộc sống hiện đại",
+    },
+    items: [
+      "Tập thể dục 30 phút mỗi ngày mang lại lợi ích gì?",
+      "Ngủ đủ giấc giúp cải thiện trí nhớ",
+      "Giảm stress để sống khỏe hơn",
+    ],
+  },
+];
+export const listDataNewsHealth2 = [
+  {
+    id: "dinh-duong",
+    title: "DINH DƯỠNG",
+    main: {
+      image:
+        "https://static-images.vnncdn.net/files/publish/2023/8/1/an-uong-lanh-manh-1234.jpg",
+      title: "Ăn uống lành mạnh giúp giảm nguy cơ bệnh tim mạch",
+    },
+    items: [
+      "Chế độ ăn Địa Trung Hải có gì tốt?",
+      "Uống đủ nước mỗi ngày quan trọng thế nào?",
+      "Ăn rau xanh giúp cải thiện tiêu hóa",
+    ],
+  },
+  {
+    id: "the-duc",
+    title: "THỂ DỤC",
+    main: {
+      image:
+        "https://static-images.vnncdn.net/files/publish/2023/7/20/tap-the-duc-moi-ngay-8899.jpg",
+      title: "Tập thể dục 30 phút mỗi ngày mang lại lợi ích gì?",
+    },
+    items: [
+      "Đi bộ mỗi ngày giúp giảm nguy cơ đột quỵ",
+      "Yoga giúp giảm stress hiệu quả",
+      "Vận động nhẹ phù hợp cho người cao tuổi",
+    ],
+  },
+];

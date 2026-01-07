@@ -9,7 +9,7 @@
   flex: 1 1 70%;
 }
 
-/* ===== MAIN NEWS: 1 bài lớn + 2 bài nhỏ ===== */
+/* ===== MAIN NEWS: 1 bài lớn + bài nhỏ ===== */
 .main-news {
   display: flex;
   flex-wrap: wrap;
@@ -67,17 +67,17 @@
 
 /* -------- SIDEBAR BOX -------- */
 .sidebar-box {
-  background: #f3e2c7;
+  background: #e6f4ea;      /* xanh nhạt – health */
   padding: 30px;
   text-align: center;
   font-weight: bold;
-  color: #b30000;
+  color: #1a8f5b;
   margin-bottom: 12px;
   cursor: pointer;
 }
 
 .sidebar-box.highlight {
-  background: #f8d7da;
+  background: #d1f2e3;
 }
 
 /* ================== RESPONSIVE ================== */
