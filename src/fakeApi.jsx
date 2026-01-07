@@ -629,3 +629,33 @@ export const listDataNewsHealth2 = [
     ],
   },
 ];
+export const listDataNewsTech = [
+  {
+    id: "cong-nghe",
+    title: "CÔNG NGHỆ",
+    main: {
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/9/chuyen-gia-nuoc-ngoai-hien-ke-thuc-day-he-sinh-thai-blockchain-viet-nam-1216.jpg",
+      title: "Chuyên gia nước ngoài hiến kế thúc đẩy hệ sinh thái blockchain Việt Nam",
+    },
+    items: [
+      "AI thay đổi mạnh mẽ ngành công nghệ",
+      "Việt Nam tăng tốc chuyển đổi số quốc gia",
+      "Startup công nghệ gọi vốn thành công",
+    ],
+  },
+];
+export const listDataNewsTech2 = [
+  {
+    id: "ai",
+    title: "AI",
+    main: {
+      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/9/chuyen-gia-nuoc-ngoai-hien-ke-thuc-day-he-sinh-thai-blockchain-viet-nam-1216.jpg",
+      title: "AI thúc đẩy chuyển đổi số tại Việt Nam",
+    },
+    items: [
+      "Startup AI Việt gọi vốn thành công",
+      "Ứng dụng AI trong y tế và giáo dục",
+      "Chính phủ đẩy mạnh chiến lược AI quốc gia",
+    ],
+  },
+];
