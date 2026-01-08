@@ -4,13 +4,9 @@ import SubArticleItem from "../politics/SubArticleItem.jsx";
 import PoliticsThreeGrid from "../politics/PoliticsThreeGrid.jsx";
 import PoliticsVerticalList from "../politics/PoliticsVerticalList.jsx";
 import NewsSection from "../politics/NewsSection.jsx";
-import {
-    listDataNewsPolitics,
-    listDataNewsPolitics2
-} from "../../fakeApi.jsx";
 //style 
 import "../../styles/politics/politicsThreeGrid.css"
-const PoliticsMain = () => {
+const PoliticsMain = ({ featured, subList, gridList, verticalList }) => {
     return (
         <div className="politics-main">
             <div className="d-flex flex-wrap main-news">
@@ -18,49 +14,35 @@ const PoliticsMain = () => {
                 {/* LEFT: BÀI NỔI BẬT */}
                 <div className="main-left">
                     <Link
-                        to="/chinh-tri/bai-hoc-tu-chau-au"
+                        to={`/article?url=${encodeURIComponent(featured.link)}&title=${encodeURIComponent(featured.title)}`}
                         className="text-decoration-none text-dark"
                     >
-                        <FeaturedArticle />
+                        <FeaturedArticle data={featured} />
                     </Link>
                 </div>
 
                 {/* RIGHT: BÀI PHỤ */}
                 <div className="main-right">
-
-                    <SubArticleItem
-                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/14/bai-hoc-tu-chau-au-co-the-giup-viet-nam-giam-gan-80-muc-o-nhiem-khong-khi-430.jpg?width=360&s=Am3rAKrcxBNz7B1sh9Leww"
-                        title="Hồi hương hài cốt quân nhân Mỹ mất tích trong chiến tranh tại Việt Nam"
-                        link="/chinh-tri/hoi-huong-hai-cot-quan-nhan-my"
-                    />
-
-                    <SubArticleItem
-                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/13/hoi-huong-hai-cot-quan-nhan-my-mat-tich-trong-chien-tranh-tai-viet-nam-1922.jpg?width=360&s=_hTdhx8GryeJLX_udNkZ8w"
-                        title="Thủ tướng: Dự án Nhiệt điện Nhơn Trạch 3 và 4 thể hiện tinh thần, bản lĩnh, trí tuệ Việt Nam"
-                        link="/chinh-tri/nhiet-dien-nhon-trach-3-4"
-                    />
-                    <SubArticleItem
-                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/13/hoi-huong-hai-cot-quan-nhan-my-mat-tich-trong-chien-tranh-tai-viet-nam-1922.jpg?width=360&s=_hTdhx8GryeJLX_udNkZ8w"
-                        title="Thủ tướng: Dự án Nhiệt điện Nhơn Trạch 3 và 4 thể hiện tinh thần, bản lĩnh, trí tuệ Việt Nam"
-                        link="/chinh-tri/nhiet-dien-nhon-trach-3-4"
-                    />
-                    <SubArticleItem
-                        image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/13/hoi-huong-hai-cot-quan-nhan-my-mat-tich-trong-chien-tranh-tai-viet-nam-1922.jpg?width=360&s=_hTdhx8GryeJLX_udNkZ8w"
-                        title="Thủ tướng: Dự án Nhiệt điện Nhơn Trạch 3 và 4 thể hiện tinh thần, bản lĩnh, trí tuệ Việt Nam"
-                        link="/chinh-tri/nhiet-dien-nhon-trach-3-4"
-                    />
+                    {subList.map(item => (
+                        <SubArticleItem
+                            key={item.id}
+                            image={item.image}
+                            title={item.title}
+                            link={item.link}
+                        />
+                    ))}
                 </div>
             </div>
 
             <div className="mt-4">
-                <PoliticsThreeGrid />
+                <PoliticsThreeGrid data={gridList} />
             </div>
             <div className="mt-4">
-                <PoliticsVerticalList />
+                <PoliticsVerticalList  data={verticalList}/>
             </div>
-             <div className="news-row mt-4">
-                <NewsSection sections={listDataNewsPolitics} />
-                <NewsSection sections={listDataNewsPolitics2} />
+            <div className="news-row mt-4">
+                <NewsSection sections={gridList} />
+                <NewsSection sections={verticalList} />
             </div>
         </div>
 

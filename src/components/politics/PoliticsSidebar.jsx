@@ -1,5 +1,5 @@
 import PoliticsHotList from "../politics/PoliticsHotList.jsx"
-const PoliticsSidebar = () => {
+const PoliticsSidebar = ({ hotList }) => {
   return (
     <aside className="politics-sidebar ms-lg-4 mt-4 mt-lg-0">
       <div className="sidebar-box">HỒ SƠ ĐẠI BIỂU QUỐC HỘI</div>
@@ -8,7 +8,7 @@ const PoliticsSidebar = () => {
       <div className="sidebar-box highlight">ĐẠI HỘI ĐẢNG</div>
 
       <div className="mt-4">
-        <PoliticsHotList/>
+        <PoliticsHotList  hotList={hotList}/>
       </div>
     </aside>
   );
