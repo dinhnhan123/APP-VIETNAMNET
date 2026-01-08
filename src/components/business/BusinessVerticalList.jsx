@@ -2,7 +2,7 @@ import { useState } from "react";
 import BusinessVerticalItem from "./BusinessVerticalItem";
 
 const BusinessVerticalList = ({ data = [] }) => {
-  const ITEMS_PER_PAGE = 2;
+  const ITEMS_PER_PAGE = 10;
   const [currentPage, setCurrentPage] = useState(1);
 
   if (!data.length) return null;

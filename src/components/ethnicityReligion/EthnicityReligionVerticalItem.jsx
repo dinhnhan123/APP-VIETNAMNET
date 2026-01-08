@@ -4,7 +4,7 @@ const EthnicityReligionVerticalItem = ({ image, category, title, desc, link }) =
     return (
         <div className="politics-vertical-item d-flex mb-4">
         
-            <Link to={link} className="item-img">
+            <Link  to={`/article?url=${encodeURIComponent(link)}&title=${encodeURIComponent(title)}`} className="item-img">
                 <img src={image} alt={title} />
             </Link>
 

@@ -13,17 +13,20 @@ const BusinessPage = () => {
         .catch(err => console.log("RSS ERROR:", err));
     }, []);
   
-    if (!articles || articles.length < 5) return <div className="container"><p>Đang tải tin...</p></div>;
+   if (!articles || articles.length === 0) {
+  return (
+    <div className="container">
+      <p>Đang tải tin...</p>
+    </div>
+  );
+}
 
-    const withImage = articles.filter(a => a.image && a.image !== "");
-    const noImage = articles.filter(a => !a.image || a.image === "");
-    const sortedArticles = [...withImage, ...noImage];
-  
-    const featured = sortedArticles[0];
-    const subList = sortedArticles.slice(1, 5);
-    const highlighList = sortedArticles.slice(5, 9);
-    const gridList = sortedArticles.slice(5, 11);
-    const verticalList = sortedArticles.slice(11, 18);
+    const featured = articles[0];
+    const subList = articles.slice(1, 5);
+    const highlighList = articles.slice(5, 9);
+    const gridList = articles.slice(9, 15);
+    const hotList = articles.slice(15, 24);
+    const verticalList = articles.slice(24);
   return (
     <div className="container mt-3">
       <div className="d-flex flex-wrap politics-wrapper">
@@ -33,7 +36,7 @@ const BusinessPage = () => {
           gridList={gridList}
           verticalList={verticalList}
         />
-        <BusinessSidebar hotList={subList}/>
+        <BusinessSidebar hotList={hotList}/>
          <div className="mt-4">
                 <HighlightSection highlights={highlighList}/>
             </div>
