@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const SubArticleItem = ({ image, title, link }) => {
   return (
     <Link
-      to={link}
+       to={`/article?url=${encodeURIComponent(link)}&title=${encodeURIComponent(title)}`}
       className="sub-item d-flex mb-3 text-decoration-none text-dark"
     >
       <img src={image} alt={title} />
