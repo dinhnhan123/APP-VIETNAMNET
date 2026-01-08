@@ -5,7 +5,7 @@ const BusinessThreeGrid = ({ data = [] }) => {
     <div className="row g-3 politics-three-grid">
       {data.map(item => (
         <div className="col-12 col-md-4" key={item.id}>
-          <Link to={item.link} className="grid-item">
+          <Link to={`/article?url=${encodeURIComponent(item.link)}&title=${encodeURIComponent(item.title)}`} className="grid-item">
             {item.image && (
               <img src={item.image} alt={item.title} />
             )}

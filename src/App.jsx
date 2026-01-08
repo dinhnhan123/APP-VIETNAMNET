@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 //page
 import CatPage from "./pages/CatPage";
 import HomePage from "./pages/HomePage";
+import Article from "./components/Article";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import PoliticsPage from "./pages/PoliticsPage";
@@ -26,6 +27,7 @@ const App = () => {
       <TopMenu/>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/article" element={<Article />} />
         <Route path="/chinh-tri" element={<PoliticsPage />} />
         <Route path="/thoi-su" element={<NewsPage />} />
         <Route path="/kinh-doanh" element={<Business />} />

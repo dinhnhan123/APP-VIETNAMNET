@@ -13,7 +13,7 @@ const BusinessPage = () => {
         .catch(err => console.log("RSS ERROR:", err));
     }, []);
   
-    if (!articles || articles.length < 5) return <p>Đang tải tin...</p>;
+    if (!articles || articles.length < 5) return <div className="container"><p>Đang tải tin...</p></div>;
 
     const withImage = articles.filter(a => a.image && a.image !== "");
     const noImage = articles.filter(a => !a.image || a.image === "");

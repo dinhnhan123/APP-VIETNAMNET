@@ -8,7 +8,7 @@ const BusinessHotList = ({ hotList }) => {
       <h6 className="hot-title">TIN NỔI BẬT</h6>
 
       {hotList.map((item) => (
-        <Link key={item.id} to={item.link} className="hot-item">
+        <Link key={item.id} to={`/article?url=${encodeURIComponent(item.link)}&title=${encodeURIComponent(item.title)}`} className="hot-item">
           {item.title}
         </Link>
       ))}

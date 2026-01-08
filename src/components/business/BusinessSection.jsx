@@ -12,7 +12,7 @@ const BusinessSection = ({ sections = [] }) => {
     <div className="news-column">
       {/* MAIN */}
       <div className="news-main">
-        <Link to={main.link}>
+        <Link to={`/article?url=${encodeURIComponent(main.link)}&title=${encodeURIComponent(main.title)}`}>
           {main.image && <img src={main.image} alt={main.title} />}
         </Link>
 
@@ -27,7 +27,7 @@ const BusinessSection = ({ sections = [] }) => {
       <ul className="news-list">
         {list.map(item => (
           <li key={item.id}>
-            <Link to={item.link} className="text-decoration-none">
+            <Link to={`/article?url=${encodeURIComponent(item.link)}&title=${encodeURIComponent(item.title)}`} className="text-decoration-none">
               {item.title}
             </Link>
           </li>

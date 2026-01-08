@@ -16,7 +16,7 @@ const BusinessMain = ({ featured, subList, gridList, verticalList }) => {
         {/* LEFT: BÀI NỔI BẬT */}
         <div className="main-left">
           {featured && (
-            <Link to={featured.link} className="text-decoration-none text-dark">
+            <Link  to={`/article?url=${encodeURIComponent(featured.link)}&title=${encodeURIComponent(featured.title)}`} className="text-decoration-none text-dark">
               <FeaturedArticle data={featured} />
             </Link>
           )}

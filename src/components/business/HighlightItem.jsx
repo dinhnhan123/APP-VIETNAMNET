@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const HighlightItem = ({ image, category, title, link }) => {
   return (
-    <Link to={link} className="highlight-item d-block">
+    <Link to={`/article?url=${encodeURIComponent(link)}&title=${encodeURIComponent(title)}`} className="highlight-item d-block">
       <div className="highlight-thumb">
         <img src={image} alt={title} />
       </div>

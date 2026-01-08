@@ -1,0 +1,9 @@
+.container.article-content img{
+  max-width: 100% !important; 
+  height: auto !important;
+  margin: 10px 0px;
+}
+.container .title-article{
+  font-size: 22px !important;
+  margin: 15px 0px !important;
+}
