@@ -13,7 +13,7 @@ const MediaSection = ({ multimedia, photo }) => {
 
           <div className="row g-3">
             <div className="col-12 col-md-6">
-              <Link to={multimedia.link}>
+              <Link to={`/article?url=${encodeURIComponent(multimedia.link)}&title=${encodeURIComponent(multimedia.title)}`}>
                 <img
                   src={multimedia.image}
                   alt=""
@@ -24,7 +24,7 @@ const MediaSection = ({ multimedia, photo }) => {
 
             <div className="col-12 col-md-6">
               <Link
-                to={multimedia.link}
+                to={`/article?url=${encodeURIComponent(multimedia.link)}&title=${encodeURIComponent(multimedia.title)}`}
                 className="text-decoration-none text-dark"
               >
                 <h5 className="fw-bold">{multimedia.title}</h5>
@@ -46,14 +46,14 @@ const MediaSection = ({ multimedia, photo }) => {
             <div key={index} className="row mb-3 align-items-start">
               <div className="col-7">
                 <Link
-                  to={item.link}
+                  to={`/article?url=${encodeURIComponent(item.link)}&title=${encodeURIComponent(item.title)}`}
                   className="text-decoration-none text-dark"
                 >
                   <p className="fw-semibold small mb-1">{item.title}</p>
                 </Link>
               </div>
               <div className="col-5">
-                <Link to={item.link}>
+                <Link  to={`/article?url=${encodeURIComponent(item.link)}&title=${encodeURIComponent(item.title)}`}>
                   <div className="image-box position-relative">
                     <img
                       src={item.image}
