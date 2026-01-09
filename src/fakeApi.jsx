@@ -692,3 +692,71 @@ export const listDataNewsLaw2 = [
     ]
   }
 ];
+export const listDataNewsCar = [
+  {
+    id: 1,
+    title: "XE & CÔNG NGHỆ",
+    main: {
+      image:
+        "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/15/o-to-dien-moi-ra-mat-1234.jpg",
+      title: "Ô tô điện thế hệ mới ra mắt, phạm vi di chuyển lên tới 600km",
+      comments: 12,
+    },
+    items: [
+      "Xe điện Trung Quốc tràn vào thị trường Việt Nam",
+      "Công nghệ pin mới giúp xe sạc nhanh hơn",
+      "ADAS ngày càng phổ biến trên xe phổ thông",
+      "AI được ứng dụng thế nào trong ô tô hiện đại?",
+    ],
+  },
+  {
+    id: 2,
+    title: "ĐÁNH GIÁ XE",
+    main: {
+      image:
+        "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/14/danh-gia-suv-5678.jpg",
+      title: "Đánh giá SUV cỡ C: Nhiều công nghệ, giá có hợp lý?",
+      comments: 8,
+    },
+    items: [
+      "So sánh Mazda CX-5 và Honda CR-V",
+      "SUV hay Sedan: Lựa chọn nào phù hợp gia đình?",
+      "Chi phí nuôi xe SUV trong 5 năm",
+      "Xe gầm cao có thực sự an toàn hơn?",
+    ],
+  },
+];
+export const listDataNewsCar2 = [
+  {
+    id: 3,
+    title: "THỊ TRƯỜNG XE",
+    main: {
+      image:
+        "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/13/thi-truong-o-to-9012.jpg",
+      title: "Thị trường ô tô cuối năm sôi động, nhiều mẫu xe giảm giá sâu",
+      comments: 15,
+    },
+    items: [
+      "Xe nhập khẩu giảm giá hàng trăm triệu đồng",
+      "Người mua xe chờ ưu đãi cuối năm",
+      "Sedan hạng B vẫn hút khách",
+      "Xu hướng mua xe cũ tăng mạnh",
+    ],
+  },
+  {
+    id: 4,
+    title: "KINH NGHIỆM LÁI XE",
+    main: {
+      image:
+        "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/12/kinh-nghiem-lai-xe-3456.jpg",
+      title: "Những sai lầm tài xế mới thường mắc khi lái xe đường dài",
+      comments: 5,
+    },
+    items: [
+      "Cách kiểm tra xe trước chuyến đi xa",
+      "Lái xe ban đêm cần lưu ý điều gì?",
+      "Kỹ năng xử lý khi xe nổ lốp",
+      "Có nên bật cruise control trên cao tốc?",
+    ],
+  },
+];

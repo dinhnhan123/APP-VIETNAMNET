@@ -1,9 +1,18 @@
+import CarHotList from "../car/CarHotList.jsx";
+
 const CarSidebar = () => {
   return (
-    <div className="car-sidebar">
-      <div className="sidebar-box">Xe nổi bật</div>
-      <div className="sidebar-box highlight">Đánh giá – So sánh</div>
-    </div>
+    <aside className="car-sidebar ms-lg-4 mt-4 mt-lg-0">
+      <div className="sidebar-box">HỒ SƠ HÃNG XE</div>
+      <div className="sidebar-box">HỒ SƠ DÒNG XE</div>
+      <div className="sidebar-box">TOÀN CẢNH THỊ TRƯỜNG Ô TÔ</div>
+      <div className="sidebar-box highlight">XE HOT</div>
+
+      <div className="mt-4">
+        <CarHotList />
+      </div>
+    </aside>
   );
 };
+
 export default CarSidebar;
