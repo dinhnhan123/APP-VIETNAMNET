@@ -659,3 +659,36 @@ export const listDataNewsTech2 = [
     ],
   },
 ];
+export const listDataNewsLaw = [
+  {
+    id: 1,
+    title: "XÉT XỬ",
+    main: {
+      image: "https://static-images.vnncdn.net/...",
+      title: "Xét xử vụ án kinh tế lớn",
+      comments: 120
+    },
+    items: [
+      "Bị cáo đối mặt mức án cao",
+      "Luật sư đề nghị giảm nhẹ",
+      "HĐXX nghị án"
+    ]
+  }
+];
+
+export const listDataNewsLaw2 = [
+  {
+    id: 2,
+    title: "ĐIỀU TRA",
+    main: {
+      image: "https://static-images.vnncdn.net/...",
+      title: "Khởi tố đường dây lừa đảo",
+      comments: 78
+    },
+    items: [
+      "Thiệt hại hàng trăm tỷ",
+      "Nhiều đối tượng bị bắt",
+      "Cảnh báo người dân"
+    ]
+  }
+];

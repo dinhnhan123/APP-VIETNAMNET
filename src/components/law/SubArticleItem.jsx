@@ -1,9 +1,15 @@
-const SubArticleItem = () => {
+import { Link } from "react-router-dom";
+
+const SubArticleItem = ({ image, title, link }) => {
   return (
-    <div className="sub-item">
-      <img src="https://via.placeholder.com/120x80" alt="Law sub" />
-      <p>Xử phạt vi phạm hành chính tăng mức phạt</p>
-    </div>
+    <Link
+      to={link}
+      className="sub-item d-flex mb-3 text-decoration-none text-dark"
+    >
+      <img src={image} alt={title} />
+      <p className="ms-2 mb-0">{title}</p>
+    </Link>
   );
 };
+
 export default SubArticleItem;
