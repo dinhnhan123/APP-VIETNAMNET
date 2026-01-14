@@ -3,26 +3,43 @@ import { Link } from "react-router-dom";
 const TechThreeGrid = () => {
   return (
     <div className="row g-3 tech-three-grid">
+
       <div className="col-12 col-md-4">
-        <Link to="/cong-nghe/ai" className="grid-item">
-          <img src="https://static-images.vnncdn.net/files/publish/2023/ai.jpg" />
-          <h6>AI tạo sinh đang thay đổi ngành công nghệ</h6>
+        <Link to="/cong-nghe/ai-ung-dung" className="grid-item">
+          <img
+            src="https://static-images.vnncdn.net/tech/ai-ung-dung.jpg"
+            alt=""
+          />
+          <h6>
+            Trí tuệ nhân tạo đang thay đổi cách chúng ta làm việc mỗi ngày
+          </h6>
         </Link>
       </div>
 
       <div className="col-12 col-md-4">
-        <Link to="/cong-nghe/blockchain" className="grid-item">
-          <img src="https://static-images.vnncdn.net/files/publish/2023/blockchain.jpg" />
-          <h6>Blockchain không chỉ là tiền số</h6>
+        <Link to="/cong-nghe/bao-mat-du-lieu" className="grid-item">
+          <img
+            src="https://static-images.vnncdn.net/tech/bao-mat-du-lieu.jpg"
+            alt=""
+          />
+          <h6>
+            6 thói quen bảo mật dữ liệu cá nhân ai cũng nên biết
+          </h6>
         </Link>
       </div>
 
       <div className="col-12 col-md-4">
-        <Link to="/cong-nghe/an-ninh-mang" className="grid-item">
-          <img src="https://static-images.vnncdn.net/files/publish/2023/security.jpg" />
-          <h6>An ninh mạng: Bài toán sống còn</h6>
+        <Link to="/cong-nghe/san-pham-moi" className="grid-item">
+          <img
+            src="https://static-images.vnncdn.net/tech/san-pham-moi.jpg"
+            alt=""
+          />
+          <h6>
+            Những sản phẩm công nghệ mới đáng chú ý ra mắt cuối năm
+          </h6>
         </Link>
       </div>
+
     </div>
   );
 };

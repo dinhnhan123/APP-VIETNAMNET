@@ -4,32 +4,28 @@ import "../../styles/tech/highlight.css";
 const HighlightSection = () => {
   const highlights = [
     {
-      image:
-        "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/15/ai-thay-doi-doanh-nghiep-toan-cau-1234.jpg?width=360",
+      image: "https://static-images.vnncdn.net/tech/ai-trend.jpg",
       category: "AI",
-      title: "AI đang thay đổi cách doanh nghiệp toàn cầu vận hành",
-      link: "/cong-nghe/ai-doanh-nghiep"
+      title: "Trí tuệ nhân tạo đang thay đổi ngành công nghệ như thế nào?",
+      link: "/cong-nghe/tri-tue-nhan-tao"
     },
     {
-      image:
-        "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/14/viet-nam-lam-chu-cong-nghe-ban-dan-5678.jpg?width=360",
-      category: "CÔNG NGHỆ SỐ",
-      title: "Việt Nam tiến gần hơn mục tiêu làm chủ công nghệ bán dẫn",
-      link: "/cong-nghe/ban-dan-viet-nam"
+      image: "https://static-images.vnncdn.net/tech/chip-ai.jpg",
+      category: "PHẦN CỨNG",
+      title: "Cuộc đua chip AI: Nvidia, AMD và Intel cạnh tranh khốc liệt",
+      link: "/cong-nghe/chip-ai"
     },
     {
-      image:
-        "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/16/startup-cong-nghe-viet-nam-goi-von-9101.jpg?width=360",
-      category: "STARTUP",
-      title: "Startup công nghệ Việt gọi vốn triệu USD cuối năm",
-      link: "/cong-nghe/startup-goi-von"
-    },
-    {
-      image:
-        "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/13/an-ninh-mang-tan-cong-gia-tang-1121.jpg?width=360",
+      image: "https://static-images.vnncdn.net/tech/cyber-security.jpg",
       category: "AN NINH MẠNG",
-      title: "Cảnh báo làn sóng tấn công mạng nhắm vào doanh nghiệp Việt",
+      title: "Gia tăng tấn công mạng nhắm vào người dùng cá nhân",
       link: "/cong-nghe/an-ninh-mang"
+    },
+    {
+      image: "https://static-images.vnncdn.net/tech/smartphone-2025.jpg",
+      category: "THIẾT BỊ",
+      title: "Xu hướng smartphone 2025: AI on-device lên ngôi",
+      link: "/cong-nghe/smartphone-2025"
     }
   ];
 

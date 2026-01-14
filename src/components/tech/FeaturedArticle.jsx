@@ -1,20 +1,22 @@
-const TechFeaturedArticle = () => {
+const FeaturedArticle = () => {
   return (
     <div className="featured-article flex-grow-1">
       <img
-        src="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/14/ai-va-chuyen-doi-so-trong-doanh-nghiep-viet-nam-1956.jpg?width=550&s=QVxj02w-BDiPrQeM5gLW8A"
+        src="https://static-images.vnncdn.net/files/publish/2024/3/15/ai-chip-cong-nghe-1534.jpg"
         alt="Công nghệ"
         className="img-fluid"
       />
+
       <h2 className="mt-2">
-        AI và chuyển đổi số: Cơ hội bứt phá cho doanh nghiệp Việt
+        Cuộc đua AI và chip bán dẫn: Công nghệ đang thay đổi thế giới ra sao?
       </h2>
+
       <p>
-        Trí tuệ nhân tạo và các nền tảng số đang thay đổi cách doanh nghiệp vận hành,
-        tối ưu chi phí và nâng cao năng lực cạnh tranh...
+        Trí tuệ nhân tạo và chip bán dẫn thế hệ mới đang trở thành yếu tố then
+        chốt quyết định sức mạnh công nghệ của các quốc gia và tập đoàn toàn cầu.
       </p>
     </div>
   );
 };
 
-export default TechFeaturedArticle;
+export default FeaturedArticle;
