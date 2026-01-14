@@ -579,9 +579,8 @@ export const listDataNewsHealth = [
       title: "Đi máy bay trong đêm ra Hà Nội cứu ngón tay bị đứt rời sau 25 giờ",
     },
     items: [
-      "Khám sức khỏe định kỳ giúp phát hiện sớm bệnh nguy hiểm",
-      "Ăn uống lành mạnh giảm nguy cơ tim mạch",
-      "Chăm sóc sức khỏe tinh thần trong cuộc sống hiện đại",
+      "Ca phẫu thuật khẩn cấp được thực hiện ngay trong đêm, giúp cứu thành công ngón tay bị đứt rời sau 25 giờ.",
+      "Nguyên nhân ngón tay bị đứt ?",
     ],
   },
   {
@@ -589,11 +588,10 @@ export const listDataNewsHealth = [
     title: "ĐỜI SỐNG",
     main: {
       image:
-        "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/9/suc-khoe-tinh-than-4455.jpg",
+        "https://www.prudential.com.vn/export/sites/prudential-vn/vi/.thu-vien/hinh-anh/pulse-nhip-song-khoe/song-khoe/2022/ban-co-dang-mac-phai-chung-stress-trong-cong-viec-1200x800-1.jpg",
       title: "Chăm sóc sức khỏe tinh thần trong cuộc sống hiện đại",
     },
     items: [
-      "Tập thể dục 30 phút mỗi ngày mang lại lợi ích gì?",
       "Ngủ đủ giấc giúp cải thiện trí nhớ",
       "Giảm stress để sống khỏe hơn",
     ],
@@ -605,7 +603,7 @@ export const listDataNewsHealth2 = [
     title: "DINH DƯỠNG",
     main: {
       image:
-        "https://static-images.vnncdn.net/files/publish/2023/8/1/an-uong-lanh-manh-1234.jpg",
+        "https://azado.com.vn/wp-content/uploads/2023/08/66-1.png",
       title: "Ăn uống lành mạnh giúp giảm nguy cơ bệnh tim mạch",
     },
     items: [
@@ -619,7 +617,7 @@ export const listDataNewsHealth2 = [
     title: "THỂ DỤC",
     main: {
       image:
-        "https://static-images.vnncdn.net/files/publish/2023/7/20/tap-the-duc-moi-ngay-8899.jpg",
+        "https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2024/4/28/b1-133854-1714286030531-1714286031714691049224.png",
       title: "Tập thể dục 30 phút mỗi ngày mang lại lợi ích gì?",
     },
     items: [
@@ -664,7 +662,7 @@ export const listDataNewsLaw = [
     id: 1,
     title: "XÉT XỬ",
     main: {
-      image: "https://static-images.vnncdn.net/...",
+      image: "https://cdn.tapchitoaan.vn/uploads/2019/01/P3-311018-1.jpg",
       title: "Xét xử vụ án kinh tế lớn",
       comments: 120
     },
@@ -681,7 +679,7 @@ export const listDataNewsLaw2 = [
     id: 2,
     title: "ĐIỀU TRA",
     main: {
-      image: "https://static-images.vnncdn.net/...",
+      image: "https://media.vov.vn/sites/default/files/styles/large/public/2024-12/z6125616699043_fa183d22c1cc11ac53192edf4f47a218.jpg",
       title: "Khởi tố đường dây lừa đảo",
       comments: 78
     },
@@ -698,7 +696,7 @@ export const listDataNewsCar = [
     title: "XE & CÔNG NGHỆ",
     main: {
       image:
-        "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/15/o-to-dien-moi-ra-mat-1234.jpg",
+        "https://media.vov.vn/sites/default/files/styles/large/public/2024-05/kia_ev3-2.jpg",
       title: "Ô tô điện thế hệ mới ra mắt, phạm vi di chuyển lên tới 600km",
       comments: 12,
     },
@@ -714,7 +712,7 @@ export const listDataNewsCar = [
     title: "ĐÁNH GIÁ XE",
     main: {
       image:
-        "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/14/danh-gia-suv-5678.jpg",
+        "https://static.automotor.vn/images/upload/2024/04/09/xu-huong-ep-gia-suv-hang-c-vneconomyautomotive-1.jpg",
       title: "Đánh giá SUV cỡ C: Nhiều công nghệ, giá có hợp lý?",
       comments: 8,
     },
@@ -732,7 +730,7 @@ export const listDataNewsCar2 = [
     title: "THỊ TRƯỜNG XE",
     main: {
       image:
-        "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/13/thi-truong-o-to-9012.jpg",
+        "https://dnsg.1cdn.vn/2024/12/03/xe.jpg",
       title: "Thị trường ô tô cuối năm sôi động, nhiều mẫu xe giảm giá sâu",
       comments: 15,
     },
@@ -748,7 +746,7 @@ export const listDataNewsCar2 = [
     title: "KINH NGHIỆM LÁI XE",
     main: {
       image:
-        "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/12/kinh-nghiem-lai-xe-3456.jpg",
+        "https://vnn-imgs-a1.vgcloud.vn/media.laodong.vn/Storage/NewsPortal/2020/11/10/853276/Lai-Xe-Duong-Dai.jpg",
       title: "Những sai lầm tài xế mới thường mắc khi lái xe đường dài",
       comments: 5,
     },

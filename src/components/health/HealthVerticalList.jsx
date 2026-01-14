@@ -5,21 +5,21 @@ import "../../styles/health/healthVerticalList.css";
 const HealthVerticalList = () => {
   const articles = [
     {
-      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/15/bo-truong-dao-ngoc-dung-truong-du-bi-dai-hoc-la-mo-hinh-giao-duc-dac-thu-161.jpg?width=360&s=8frNVXqWL_eeqvynDCjZCg",
+      image: "src/assets/thoiTietLanh.jpg",
       category: "SỨC KHỎE",
       title: "Bộ Y tế cảnh báo nguy cơ gia tăng bệnh hô hấp khi thời tiết chuyển lạnh",
       desc: "Các chuyên gia y tế khuyến cáo người dân cần giữ ấm cơ thể, tăng cường dinh dưỡng và tiêm phòng đầy đủ để phòng tránh các bệnh hô hấp mùa đông.",
       link: "/suc-khoe/benh-ho-hap-mua-dong"
     },
     {
-      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/14/bai-hoc-tu-chau-au-co-the-giup-viet-nam-giam-gan-80-muc-o-nhiem-khong-khi-430.jpg?width=360&s=Am3rAKrcxBNz7B1sh9Leww",
+      image: "src/assets/timMach.png",
       category: "DINH DƯỠNG",
       title: "Chế độ ăn lành mạnh giúp giảm nguy cơ bệnh tim mạch",
       desc: "Việc bổ sung rau xanh, trái cây và hạn chế chất béo xấu được chứng minh giúp giảm nguy cơ mắc các bệnh tim mạch.",
       link: "/suc-khoe/dinh-duong-tim-mach"
     },
     {
-      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/14/dau-an-10-nam-cua-mot-hiep-hoi-va-su-ra-doi-trung-tam-phat-trien-nhan-luc-so-viet-nam-1956.jpg?width=360&s=IjkuVpmZrLwyX_OYphtGBg",
+      image: "src/assets/stress.jpg",
       category: "TÂM LÝ",
       title: "Dấu hiệu stress kéo dài và cách cân bằng tinh thần",
       desc: "Stress kéo dài có thể ảnh hưởng nghiêm trọng đến sức khỏe tinh thần và thể chất nếu không được can thiệp kịp thời.",
@@ -32,7 +32,6 @@ const HealthVerticalList = () => {
       desc: "Bộ Y tế khuyến cáo người dân mang đầy đủ giấy tờ và tìm hiểu kỹ quy trình khám chữa bệnh để tránh mất thời gian.",
       link: "/suc-khoe/bao-hiem-y-te"
     }
-    // 👉 Có thể thêm bao nhiêu bài cũng được
   ];
 
   const ITEMS_PER_PAGE = 10;

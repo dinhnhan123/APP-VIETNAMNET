@@ -5,21 +5,20 @@ const CarHotList = () => {
     <div className="car-hot-list">
       <h6 className="hot-title">TIN NỔI BẬT</h6>
 
-      <Link to="/oto-xe-may/san-bay-long-thanh" className="hot-item">
-        Sân bay Long Thành chuẩn bị đón máy bay lớn nhất vào chiều nay
+      <Link to="/oto/suv-moi-ra-mat" className="hot-item">
+        Mẫu SUV 7 chỗ mới ra mắt tại Việt Nam, cạnh tranh Ford Everest
       </Link>
 
-      <Link to="/oto-xe-may/camera-ai-ha-noi" className="hot-item">
-        Gần 2.000 camera AI hoạt động ở Hà Nội: Xe máy che biển số, tài xế nói
-        &apos;ai đó nghịch&apos;
+      <Link to="/xe-may/camera-phat-nguoi" className="hot-item">
+        Camera phạt nguội hoạt động thế nào? Những lỗi xe máy dễ bị xử phạt
       </Link>
 
-      <Link to="/oto-xe-may/phien-toa-phuc-tham" className="hot-item">
-        Hình ảnh cựu bí thư Tỉnh ủy Hoàng Thị Thúy Lan tại phiên tòa phúc thẩm
+      <Link to="/oto/gia-xang-dau-hom-nay" className="hot-item">
+        Giá xăng dầu hôm nay biến động mạnh, tài xế cần lưu ý gì?
       </Link>
 
-      <Link to="/oto-xe-may/sat-lo-quoc-lo-6" className="hot-item">
-        Hiện trường vụ sạt lở kinh hoàng trên QL6 qua Phú Thọ khiến 3 người chết
+      <Link to="/oto/kinh-nghiem-lai-xe-mua-mua" className="hot-item">
+        Kinh nghiệm lái ô tô an toàn trong điều kiện mưa lớn, đường trơn trượt
       </Link>
     </div>
   );

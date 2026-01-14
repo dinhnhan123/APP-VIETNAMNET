@@ -2,7 +2,7 @@ const FeaturedArticle = () => {
   return (
     <div className="featured-article flex-grow-1">
       <img
-        src="https://static-images.vnncdn.net/files/publish/2024/3/15/ai-chip-cong-nghe-1534.jpg"
+        src="https://bcp.cdnchinhphu.vn/334894974524682240/2024/5/23/chip-17164512655962124162612.jpg"
         alt="Công nghệ"
         className="img-fluid"
       />

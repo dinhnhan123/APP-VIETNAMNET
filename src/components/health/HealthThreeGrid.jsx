@@ -7,7 +7,7 @@ const HealthThreeGrid = () => {
       <div className="col-12 col-md-4">
         <Link to="/suc-khoe/giam-cang-thang" className="grid-item">
           <img
-            src="https://static-images.vnncdn.net/health/giam-cang-thang.jpg"
+            src="https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2024/2/22/giam-stress-17085746054641243650320.jpg"
             alt=""
           />
           <h6>
@@ -19,7 +19,7 @@ const HealthThreeGrid = () => {
       <div className="col-12 col-md-4">
         <Link to="/suc-khoe/tim-mach" className="grid-item">
           <img
-            src="https://static-images.vnncdn.net/health/tim-mach.jpg"
+            src="https://suckhoedoisong.qltns.mediacdn.vn/Images/bichvan/2018/08/21/thoi_quen_tot_cho_trai_tim.jpg"
             alt=""
           />
           <h6>
@@ -31,7 +31,7 @@ const HealthThreeGrid = () => {
       <div className="col-12 col-md-4">
         <Link to="/suc-khoe/tap-the-duc" className="grid-item">
           <img
-            src="https://static-images.vnncdn.net/health/tap-the-duc.jpg"
+            src="https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2025/3/7/di-bo-2-17407057233711105406964-0-0-438-701-crop-17413565887241933459919.jpg"
             alt=""
           />
           <h6>

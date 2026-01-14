@@ -2,7 +2,7 @@ const FeaturedArticle = () => {
   return (
     <div className="featured-article flex-grow-1">
       <img
-        src="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/1/9/khoi-to-quan-ly-massage-ayaru-lo-gia-ban-dam-cua-7-nhan-vien-nu-933.jpg?width=550&s=KJ6jYPrQO9soau9I4jj98Q"
+        src="https://media.thanhtra.com.vn/public/uploads/2025/06/30/6861fe7abb974b45ae86bdbe.jpg?w=1319"
         alt="Pháp luật Việt Nam"
         className="img-fluid"
       />

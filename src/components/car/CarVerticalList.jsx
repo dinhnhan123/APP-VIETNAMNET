@@ -5,20 +5,19 @@ import "../../styles/car/carVerticalList.css";
 const CarVerticalList = () => {
   const articles = [
     {
-      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/15/bo-truong-dao-ngoc-dung-truong-du-bi-dai-hoc-la-mo-hinh-giao-duc-dac-thu-161.jpg?width=360&s=8frNVXqWL_eeqvynDCjZCg",
+      image: "https://images2.thanhnien.vn/zoom/1200_630/528068263637045248/2024/10/14/edit-accent-17170845821621656827165-33-7-669-1221-crop-17288666354782018319687.jpeg",
       category: "Ô TÔ",
-      title: "Bộ trưởng Đào Ngọc Dung: Trường Dự bị Đại học là mô hình giáo dục đặc thù",
-      desc: "“Trường Dự bị Đại học Dân tộc là mô hình giáo dục có tính chất đặc thù...",
-      link: "/oto/truong-du-bi-dai-hoc"
+      title: "Mẫu sedan hạng B mới ra mắt, giá dự kiến dưới 600 triệu đồng",
+      desc: "Mẫu sedan hạng B sở hữu thiết kế hiện đại, trang bị nhiều công nghệ an toàn và hứa hẹn cạnh tranh mạnh trong phân khúc.",
+      link: "/oto/sedan-hang-b-moi"
     },
     {
-      image: "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/14/viet-nam-keu-goi-thai-lan-va-campuchia-khong-de-cang-thang-leo-thang-3552.jpg?width=360&s=c_2Lhb8tcmEtvVGiyUTFww",
+      image: "https://www.winauto.vn/wp-content/uploads/2024/12/tai-sao-xe-may-dien-ngay-cang-duoc-ua-chuong-tai-viet-nam-2.jpg",
       category: "XE MÁY",
-      title: "Việt Nam kêu gọi Thái Lan và Campuchia không để căng thẳng leo thang",
-      desc: "Bộ trưởng Ngoại giao Lê Hoài Trung kêu gọi Thái Lan và Campuchia kiềm chế...",
-      link: "/xe-may/viet-nam-keu-goi"
+      title: "Xe máy điện ngày càng được ưa chuộng tại đô thị lớn",
+      desc: "Nhờ chi phí vận hành thấp và thân thiện môi trường, xe máy điện đang trở thành lựa chọn phổ biến của người dân thành phố.",
+      link: "/xe-may/xe-dien-do-thi"
     },
-    // 👉 các item còn lại giữ nguyên, chỉ đổi category + link nếu cần
   ];
 
   const ITEMS_PER_PAGE = 10;

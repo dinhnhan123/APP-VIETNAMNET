@@ -7,7 +7,7 @@ const TechThreeGrid = () => {
       <div className="col-12 col-md-4">
         <Link to="/cong-nghe/ai-ung-dung" className="grid-item">
           <img
-            src="https://static-images.vnncdn.net/tech/ai-ung-dung.jpg"
+            src="https://vinuni.edu.vn/wp-content/uploads/2024/12/tri-tue-nhan-tao-trong-doi-song-cuoc-cach-mang-thay-doi-moi-mat-xa-hoi.png"
             alt=""
           />
           <h6>
@@ -19,7 +19,7 @@ const TechThreeGrid = () => {
       <div className="col-12 col-md-4">
         <Link to="/cong-nghe/bao-mat-du-lieu" className="grid-item">
           <img
-            src="https://static-images.vnncdn.net/tech/bao-mat-du-lieu.jpg"
+            src="https://cdnv2.tgdd.vn/mwg-static/common/News/1569761/bao-ve-d%C6%B0-lieu-ca-nhan-1.jpg"
             alt=""
           />
           <h6>
@@ -31,7 +31,7 @@ const TechThreeGrid = () => {
       <div className="col-12 col-md-4">
         <Link to="/cong-nghe/san-pham-moi" className="grid-item">
           <img
-            src="https://static-images.vnncdn.net/tech/san-pham-moi.jpg"
+            src="https://cdn-images.vtv.vn/zoom/563_351/66349b6076cb4dee98746cf1/2026/01/03/iphone-17-17110653213161476041897-85067204773135510295825.jpg"
             alt=""
           />
           <h6>

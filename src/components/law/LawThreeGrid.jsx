@@ -6,7 +6,7 @@ const LawThreeGrid = () => {
       <div className="col-12 col-md-4">
         <Link to="/phap-luat/xet-xu-vu-an" className="grid-item">
           <img
-            src="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/14/phien-toa-xet-xu-vu-an-kinh-te-001.jpg?width=360"
+            src="https://nguoiduatin.mediacdn.vn/84137818385850368/2026/1/9/img5352-17679509640601412401254.jpeg"
             alt=""
           />
           <h6>
@@ -18,7 +18,7 @@ const LawThreeGrid = () => {
       <div className="col-12 col-md-4">
         <Link to="/phap-luat/cong-an-dieu-tra" className="grid-item">
           <img
-            src="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/15/cong-an-dieu-tra-vu-an-hinh-su-002.jpg?width=360"
+            src="https://dms.gov.vn/documents/53553/0/z5936937427743_3b3e46079536c9558359f5cce86e5f43.jpg/c4c7e816-17dd-421a-bbf2-340dbe0882d4"
             alt=""
           />
           <h6>
@@ -30,7 +30,7 @@ const LawThreeGrid = () => {
       <div className="col-12 col-md-4">
         <Link to="/phap-luat/luat-moi-co-hieu-luc" className="grid-item">
           <img
-            src="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/14/luat-moi-co-hieu-luc-003.jpg?width=360"
+            src="https://cdn.thuvienphapluat.vn/uploads/tintuc/2024/11/16/08-luat-co-hieu-luc.png"
             alt=""
           />
           <h6>

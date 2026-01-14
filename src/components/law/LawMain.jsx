@@ -31,25 +31,25 @@ const LawMain = () => {
         {/* RIGHT: BÀI PHỤ */}
         <div className="main-right">
           <SubArticleItem
-            image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/14/phien-toa-xet-xu-vu-an-kinh-te-001.jpg?width=360"
+            image="https://media.vneconomy.vn/images/upload/2024/06/17/img-4203.jpeg"
             title="Xét xử vụ án kinh tế lớn, nhiều bị cáo đối mặt mức án nghiêm khắc"
             link="/phap-luat/xet-xu-vu-an-kinh-te"
           />
 
           <SubArticleItem
-            image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/13/cong-an-dieu-tra-vu-an-hinh-su-002.jpg?width=360"
+            image="https://congan.hatinh.gov.vn/storage/photos/6965fc8a8ad8f.jpg"
             title="Công an khởi tố, điều tra vụ việc có dấu hiệu vi phạm hình sự"
             link="/phap-luat/dieu-tra-vu-viec"
           />
 
           <SubArticleItem
-            image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/13/luat-moi-co-hieu-luc-003.jpg?width=360"
+            image="https://cdn.thuvienphapluat.vn/uploads/tintuc/2024/11/16/08-luat-co-hieu-luc.png"
             title="Nhiều quy định pháp luật mới chính thức có hiệu lực từ năm 2025"
             link="/phap-luat/luat-moi-2025"
           />
 
           <SubArticleItem
-            image="https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/12/13/canh-bao-lua-dao-cong-nghe-cao-004.jpg?width=360"
+            image="https://media.vietnamplus.vn/images/7255a701687d11cb8c6bbc58a6c80785c6505cd355135628a4932b3bfabb3fb05b08c5b9b1e2eb79f23028f0352fa016c5ac5506eb04363983ffaa6ff1d21ac4/toi-phamjpg-9340.png"
             title="Gia tăng các vụ lừa đảo công nghệ cao, người dân cần cảnh giác"
             link="/phap-luat/lua-dao-cong-nghe-cao"
           />

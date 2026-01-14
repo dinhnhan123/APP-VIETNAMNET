@@ -5,28 +5,28 @@ import "../../styles/tech/techVerticalList.css";
 const TechVerticalList = () => {
   const articles = [
     {
-      image: "https://static-images.vnncdn.net/tech/ai-chip.jpg",
+      image: "https://nghiencuuchienluoc.org/wp-content/uploads/2025/05/US-China-AI-race-scaled-1-750x375.jpg",
       category: "CÔNG NGHỆ",
       title: "Cuộc đua chip AI toàn cầu bước vào giai đoạn khốc liệt",
       desc: "Các hãng công nghệ lớn liên tục ra mắt thế hệ chip AI mới nhằm tối ưu hiệu năng và tiết kiệm năng lượng.",
       link: "/cong-nghe/chip-ai"
     },
     {
-      image: "https://static-images.vnncdn.net/tech/cyber-security.jpg",
+      image: "https://cdn2.tuoitre.vn/471584752817336320/2023/12/12/tan-cong-mang-quang-cao-co-bac-ncs-2023-12-12-17023672462521227219428.png",
       category: "AN NINH MẠNG",
       title: "Gia tăng tấn công mạng nhắm vào doanh nghiệp Việt",
       desc: "Chuyên gia khuyến cáo doanh nghiệp cần nâng cấp hệ thống bảo mật và đào tạo nhân sự về an toàn thông tin.",
       link: "/cong-nghe/an-ninh-mang"
     },
     {
-      image: "https://static-images.vnncdn.net/tech/smartphone-2025.jpg",
+      image: "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2025/12/21/avatar1766342945272-17663429472201719409395-0-0-637-1019-crop-1766343001459466277988.jpg",
       category: "THIẾT BỊ",
       title: "Xu hướng smartphone 2025: AI on-device lên ngôi",
       desc: "Các mẫu điện thoại mới tập trung mạnh vào xử lý AI trực tiếp trên thiết bị thay vì phụ thuộc đám mây.",
       link: "/cong-nghe/smartphone-2025"
     },
     {
-      image: "https://static-images.vnncdn.net/tech/blockchain.jpg",
+      image: "https://thanhnien.mediacdn.vn/Uploaded/tamkc/2022_05_18/bitcoin-7856.jpg",
       category: "BLOCKCHAIN",
       title: "Blockchain không còn là câu chuyện của tiền số",
       desc: "Công nghệ blockchain đang được ứng dụng mạnh mẽ trong logistics, y tế và quản lý dữ liệu.",
